@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\webapp-sam-lab13.props" />
+</Project>
