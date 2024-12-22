@@ -31,6 +31,7 @@ Interested In:
 11. [Azure Application Insights](https://github.com/utpal-maiti/Azure_Application_Insights)
 12. [Azure Content Delivery Network (CDN) VS Azure Front Door (Dynamic Content)](https://github.com/utpal-maiti/Azure_Content_Delivery_Network)
 13. [Azure AI Services](https://github.com/utpal-maiti/Azure_AI_Services)
+    1. [Azure AI Language](https://github.com/utpal-maiti/Azure_AI_Services/tree/main/Azure%20AI%20Language%20service)
 
 ## AI-102-AIEngineer
 
