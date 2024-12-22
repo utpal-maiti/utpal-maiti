@@ -6,6 +6,12 @@
 - 📫 How to reach me ... (email: utpalmaiti@outlook.com, LinkedIn: https://www.linkedin.com/in/utpalmaiti/)
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... 😄
+- 
+- [Enterprise Skills Initiative(ESI)](https://esi.microsoft.com/)
+- [Enterprise Skills Initiative Labs(ESI)](https://esi.learnondemand.net/)
+- [Enterprise Skills Initiative Labs(GSI)](https://gsi.learnondemand.net/)
+
+- - [Questions Answers](https://github.com/utpal-maiti/utpal-maiti/tree/main/Azure%20Labs)
 
 It's always nice to connect professional profiles with open-source contributions.
 Interested In:
