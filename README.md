@@ -5,10 +5,9 @@
 - 💞️ I’m looking to collaborate on innovative AI projects, community-driven coding initiatives, cloud-native applications, Azure Cloud Services
 - 📫 How to reach me ... (email: utpalmaiti@outlook.com, LinkedIn: https://www.linkedin.com/in/utpalmaiti/)
 - 😄 Pronouns: ... he/him
-- ⚡ Fun fact: ... (e.g., I love hiking and have summited [specific mountain], or I'm a big fan of [a hobby or interest])
+- ⚡ Fun fact: ... 😄
 
 It's always nice to connect professional profiles with open-source contributions.
-
 Interested In:
 ## Azure
 1. [Azure App Service](https://github.com/utpal-maiti/Azure_App_Service/)
