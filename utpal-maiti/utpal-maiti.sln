@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "utpal-maiti", "..\", "{909FFB17-4E6A-4647-9E59-D40C2A5B6AE0}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55513"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\utpal-maiti\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55513\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55513"
+		Release.AspNetCompiler.PhysicalPath = "..\..\utpal-maiti\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55513\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "55513"
+		SlnRelativePath = "..\..\utpal-maiti\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{909FFB17-4E6A-4647-9E59-D40C2A5B6AE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909FFB17-4E6A-4647-9E59-D40C2A5B6AE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
