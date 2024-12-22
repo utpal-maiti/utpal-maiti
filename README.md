@@ -36,6 +36,7 @@ Interested In:
 1. [Azure AI Services](https://github.com/utpal-maiti/Azure_AI_Services)
    1. [Azure AI Language](https://github.com/utpal-maiti/Azure_AI_Services/tree/main/Azure%20AI%20Language%20service)
    2. [Azure AI Translator](https://github.com/utpal-maiti/Azure_AI_Services/tree/main/Azure%20AI%20Translator)
+   3. [Azure AI Speech](https://github.com/utpal-maiti/Azure_AI_Services/tree/main/Azure%20AI%20Speech)
 
 ## .NET:
 
