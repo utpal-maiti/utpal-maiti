@@ -5,12 +5,14 @@
 - 📫 How to reach me ... (email: utpalmaiti@outlook.com, LinkedIn: https://www.linkedin.com/in/utpalmaiti/)
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... 😄 Engaging in research and creating educational content
+
 -
 - [Enterprise Skills Initiative(ESI)](https://esi.microsoft.com/)
 - [Enterprise Skills Initiative Labs(ESI)](https://esi.learnondemand.net/)
 - [Enterprise Skills Initiative Labs(GSI)](https://gsi.learnondemand.net/)
 - [Azure Labs Questions Answers](https://github.com/utpal-maiti/utpal-maiti/tree/main/Azure%20Labs)
 - [Interview Questions Answers](https://github.com/utpal-maiti/utpal-maiti/tree/main/InterviewQuestionsAnswers)
+- [UtpalMaiti (Migrating from Old to New)](https://github.com/UtpalMaiti/)
 
 It's always nice to connect professional profiles with open-source contributions.
 Interested In:
@@ -49,15 +51,14 @@ Interested In:
    7. [Azure AI Video Indexer](./)
    8. [Azure AI Search](./)
    9. [Azure OpenAl](./)
-   10.
 
 ## .NET:
 
-[.NET](https://github.com/utpal-maiti/Azure_App_Service/)
+[.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/)
 
 ## .NET CORE:
 
-[.NET CORE](https://github.com/utpal-maiti/Azure_App_Service/)
+[.NET CORE](https://github.com/utpal-maiti/DOTNET_CORE/)
 
 ## SQL Server:
 
