@@ -10,7 +10,6 @@
 - [Enterprise Skills Initiative Labs(ESI)](https://esi.learnondemand.net/)
 - [Enterprise Skills Initiative Labs(GSI)](https://gsi.learnondemand.net/)
 - [Azure Labs Questions Answers](https://github.com/utpal-maiti/utpal-maiti/tree/main/Azure%20Labs)
--
 - [Interview Questions Answers](https://github.com/utpal-maiti/utpal-maiti/tree/main/InterviewQuestionsAnswers)
 
 It's always nice to connect professional profiles with open-source contributions.
@@ -33,10 +32,24 @@ Interested In:
 
 ## AI-102-AIEngineer
 
+- [mslearn-ai-services](https://github.com/utpal-maiti/mslearn-ai-services)
+- [mslearn-ai-vision](https://github.com/utpal-maiti/mslearn-ai-vision)
+- [mslearn-ai-language](https://github.com/utpal-maiti/mslearn-ai-language)
+- [mslearn-ai-document-intelligence](https://github.com/utpal-maiti/mslearn-ai-document-intelligence)
+- [mslearn-knowledge-mining](https://github.com/utpal-maiti/mslearn-knowledge-mining)
+- [mslearn-openai](https://github.com/utpal-maiti/mslearn-openai)
+
 1. [Azure AI Services](https://github.com/utpal-maiti/Azure_AI_Services)
-   1. [Azure AI Language](https://github.com/utpal-maiti/Azure_AI_Services/tree/main/Azure%20AI%20Language%20service)
-   2. [Azure AI Translator](https://github.com/utpal-maiti/Azure_AI_Services/tree/main/Azure%20AI%20Translator)
-   3. [Azure AI Speech](https://github.com/utpal-maiti/Azure_AI_Services/tree/main/Azure%20AI%20Speech)
+   1. [Azure AI Language](./)
+   2. [Azure AI Translator](./)
+   3. [Azure AI Speech](./)
+   4. [Azure Al Document Intelligence](./)
+   5. [Azure Al Bot](./)
+   6. [Azure Al Vision / Custom Vision](./)
+   7. [Azure AI Video Indexer](./)
+   8. [Azure AI Search](./)
+   9. [Azure OpenAl](./)
+   10.
 
 ## .NET:
 
