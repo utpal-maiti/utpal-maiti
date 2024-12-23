@@ -52,6 +52,10 @@ Interested In:
    8. [Azure AI Search](./)
    9. [Azure OpenAl](./)
 
+## Projects:
+
+1.  [Azure AI Language](./)
+
 ## .NET:
 
 [.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/)
