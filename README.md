@@ -78,9 +78,9 @@ Interested In:
 
 ## [ANGULARjs](/InterviewQuestionsAnswers/ANGULARjs/)
 
-## React:
+## [React](/InterviewQuestionsAnswers//REACT)
 
-- [Single Page Applications (SPAs)](/InterviewQuestionsAnswers/React/)
+- [Single Page Applications (SPAs)](/InterviewQuestionsAnswers//REACT)
 - [Progressive Web Applications (PWAs)](/InterviewQuestionsAnswers/React/)
 - [Server-Side Rendered Applications (SSR)](/InterviewQuestionsAnswers/React/)
 - [Static Site Generation (SSG)](/InterviewQuestionsAnswers/React/)
