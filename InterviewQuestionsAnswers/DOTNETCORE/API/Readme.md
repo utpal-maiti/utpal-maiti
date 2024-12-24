@@ -70,6 +70,8 @@ API versioning is essential for maintaining backward compatibility.
 - **URL Path Versioning**: Include the version in the URL path.
 - **Header Versioning**: Pass the version in the request headers.
 
+### 11. **CORS (Cross-Origin Resource Sharing)**
+
 ### Example of a Basic ASP.NET Core API
 
 #### **Step 1: Create a New API Project**
