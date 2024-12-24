@@ -52,10 +52,10 @@ Interested In:
    8. [Azure AI Search](./)
    9. [Azure OpenAl](./)
 
-## [.NET CORE](https://github.com/utpal-maiti/DOTNET_CORE/)
+## [.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/)
 
-- [ASP.NET Core API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
-- [ASP.NET Core MVC (Model-View-Controller)](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
+- [ASP.NET Core API](/InterviewQuestionsAnswers/DOTNETCORE/MVC/)
+- [ASP.NET Core MVC (Model-View-Controller)](/InterviewQuestionsAnswers/DOTNETCORE/MVC/)
 - [ASP.NET Core Razor Pages](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Core Blazor Server](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Core Blazor WebAssembly](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
@@ -67,7 +67,7 @@ Interested In:
 - [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Web Pages](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 
-## [SQL Server](https://github.com/utpal-maiti/SQLServer/)
+## [SQL Server](utpal-maiti/SQLServer/)
 
 ## [ANGULAR](/InterviewQuestionsAnswers/ANGUALR)
 
