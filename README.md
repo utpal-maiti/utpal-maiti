@@ -69,7 +69,7 @@ Interested In:
 
 ## [SQL Server](https://github.com/utpal-maiti/SQLServer/)
 
-## [ANGULAR](./InterviewQuestionsAnswers/ANGUALR)
+## [ANGULAR](/InterviewQuestionsAnswers/ANGUALR)
 
 - [Single Page Applications (SPAs)](/InterviewQuestionsAnswers/ANGULAR/)
 - [Progressive Web Applications (PWAs)](/InterviewQuestionsAnswers/ANGULAR/)
