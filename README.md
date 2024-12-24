@@ -67,9 +67,9 @@ Interested In:
 - [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Web Pages](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 
-## [SQL Server](https://github.com/utpal-maiti/SQL Server/)
+## [SQL Server](https://github.com/utpal-maiti/SQLServer/)
 
-## [ANGULAR](https://github.com/utpal-maiti/utpal-maiti/tree/main/InterviewQuestionsAnswers/ANGULAR/)
+## [ANGULAR](./InterviewQuestionsAnswers/ANGUALR)
 
 - [Single Page Applications (SPAs)](/InterviewQuestionsAnswers/ANGULAR/)
 - [Progressive Web Applications (PWAs)](/InterviewQuestionsAnswers/ANGULAR/)
