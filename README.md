@@ -12,7 +12,7 @@
 - [Azure Labs Questions Answers](https://github.com/utpal-maiti/utpal-maiti/tree/main/Azure%20Labs)
 - [Interview Questions Answers](https://github.com/utpal-maiti/utpal-maiti/tree/main/InterviewQuestionsAnswers)
 
-## [SampleProjects](https://github.com/utpal-maiti/SampleProjects/)
+## [SampleProjects(Migrating)](https://github.com/UtpalMaiti/)
 
 It's always nice to connect professional profiles with open-source contributions.
 Interested In:
