@@ -5,14 +5,14 @@
 - 📫 How to reach me ... (email: utpalmaiti@outlook.com, LinkedIn: https://www.linkedin.com/in/utpalmaiti/)
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... 😄 Engaging in research and creating educational content
-
 -
 - [Enterprise Skills Initiative(ESI)](https://esi.microsoft.com/)
 - [Enterprise Skills Initiative Labs(ESI)](https://esi.learnondemand.net/)
 - [Enterprise Skills Initiative Labs(GSI)](https://gsi.learnondemand.net/)
 - [Azure Labs Questions Answers](https://github.com/utpal-maiti/utpal-maiti/tree/main/Azure%20Labs)
 - [Interview Questions Answers](https://github.com/utpal-maiti/utpal-maiti/tree/main/InterviewQuestionsAnswers)
-- [UtpalMaiti (Migrating from Old to New)](https://github.com/UtpalMaiti/)
+
+## [SampleProjects](https://github.com/utpal-maiti/SampleProjects/)
 
 It's always nice to connect professional profiles with open-source contributions.
 Interested In:
@@ -52,38 +52,39 @@ Interested In:
    8. [Azure AI Search](./)
    9. [Azure OpenAl](./)
 
-## Projects:
+## [.NET CORE](https://github.com/utpal-maiti/DOTNET_CORE/)
 
-1.  [Azure AI Language](./)
+- [ASP.NET Core API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
+- [ASP.NET Core MVC (Model-View-Controller)](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
+- [ASP.NET Core Razor Pages](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
+- [ASP.NET Core Blazor Server](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
+- [ASP.NET Core Blazor WebAssembly](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 
-## .NET:
+## [.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/)
 
-[.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/)
+- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
+- [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
+- [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
+- [ASP.NET Web Pages](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 
-## .NET CORE:
+## [SQL Server](https://github.com/utpal-maiti/SQL Server/)
 
-[.NET CORE](https://github.com/utpal-maiti/DOTNET_CORE/)
+## [ANGULAR](https://github.com/utpal-maiti/utpal-maiti/tree/main/InterviewQuestionsAnswers/ANGULAR/)
 
-## SQL Server:
+- [Single Page Applications (SPAs)](/InterviewQuestionsAnswers/ANGULAR/)
+- [Progressive Web Applications (PWAs)](/InterviewQuestionsAnswers/ANGULAR/)
+- [Server-Side Rendered Applications (SSR)](/InterviewQuestionsAnswers/ANGULAR/)
+- [Static Site Generation (SSG)](/InterviewQuestionsAnswers/ANGULAR/)
 
-[SQL Server](https://github.com/utpal-maiti/Azure_App_Service/)
-
-## ANGULAR:
-
-[ANGULAR](https://github.com/utpal-maiti/Azure_App_Service/)
-
-## ANGULARjs:
-
-[ANGULARjs](https://github.com/utpal-maiti/Azure_App_Service/)
+## [ANGULARjs](/InterviewQuestionsAnswers/ANGULARjs/)
 
 ## React:
 
-[React](https://github.com/utpal-maiti/Azure_App_Service/)
-
-## BLAZOR:
-
-[BLAZOR](https://github.com/utpal-maiti/Azure_App_Service/)
+- [Single Page Applications (SPAs)](/InterviewQuestionsAnswers/React/)
+- [Progressive Web Applications (PWAs)](/InterviewQuestionsAnswers/React/)
+- [Server-Side Rendered Applications (SSR)](/InterviewQuestionsAnswers/React/)
+- [Static Site Generation (SSG)](/InterviewQuestionsAnswers/React/)
 
 ## Microsoft Business Intelligence (SSIS, SSRS, SSAS):
 
-[Microsoft Business Intelligence (SSIS, SSRS, SSAS)](https://github.com/utpal-maiti/Azure_App_Service/)
+[Microsoft Business Intelligence (SSIS, SSRS, SSAS)](https://github.com/utpal-maiti/)
