@@ -5,30 +5,39 @@
 - 📫 How to reach me ... (email: utpalmaiti@outlook.com, LinkedIn: https://www.linkedin.com/in/utpalmaiti/)
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... 😄 Engaging in research and creating technical contents
+
 ## [Sample Projects(Migrating)](https://github.com/UtpalMaiti/)
+
 - [Enterprise Skills Initiative(ESI)](https://esi.microsoft.com/)
 - [Enterprise Skills Initiative Labs(ESI)](https://esi.learnondemand.net/)
 - [Enterprise Skills Initiative Labs(GSI)](https://gsi.learnondemand.net/)
 - [Azure Labs Questions & Answers](/AzureLabs)
 
 It's always nice to connect professional profiles with open-source contributions.
+
 # Skills Summary
+
 ## [Azure](/InterviewQuestionsAnswers/AZURE/)
+
 ###### Microsoft Certified: Azure Developer Associate (AZ-204)
+
 - [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/) ✔️
-- [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/)  ✔️ 
-- [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/)  ✔️
-- [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault)  ✔️ 
-- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement) 
-- [Azure Service Bus](https://github.com/utpal-maiti/Azure_Service_Bus) ✔️ 
-- [Azure Event Grid](https://github.com/utpal-maiti/Azure_Event_Grid) 
-- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement) 
-- [Azure Application Insights](/InterviewQuestionsAnswers/AZURE/AzureApplicationInsights)  ✔️ 
-- [Azure Cosmos DB storage](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)  
-- [Azure Container](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)  
-- [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)  
-- [Azure Content Delivery Network (CDN) VS Azure Front Door (Dynamic Content)](/InterviewQuestionsAnswers/AZURE/AzureContentDeliveryNetwork(CDN)VSAzureFrontDoor(DynamicContent))
+- [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/) ✔️
+- [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/) ✔️
+- [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault) ✔️
+- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
+- [Azure Service Bus](https://github.com/utpal-maiti/Azure_Service_Bus) ✔️
+- [Azure Event Grid](https://github.com/utpal-maiti/Azure_Event_Grid)
+- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
+- [Azure Application Insights](/InterviewQuestionsAnswers/AZURE/AzureApplicationInsights) ✔️
+- [Azure Cosmos DB storage](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
+- [Azure Container](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
+- [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement) ✔️
+- [Azure Content Delivery Network (CDN)](</InterviewQuestionsAnswers/AZURE/AzureContentDeliveryNetwork(CDN)VSAzureFrontDoor(DynamicContent)>)
+- [Azure Front Door (Dynamic Content)](</InterviewQuestionsAnswers/AZURE/AzureContentDeliveryNetwork(CDN)VSAzureFrontDoor(DynamicContent)>)
+
 ###### Microsoft Certified: Azure AI Engineer Associate (AI-102)
+
 - [Azure AI Services](https://github.com/utpal-maiti/Azure_AI_Services)
 - [Azure AI Language](https://github.com/utpal-maiti/Azure_AI_Services)
 - [Azure AI Translator](https://github.com/utpal-maiti/Azure_AI_Services)
@@ -39,7 +48,9 @@ It's always nice to connect professional profiles with open-source contributions
 - [Azure AI Video Indexer](https://github.com/utpal-maiti/Azure_AI_Services)
 - [Azure AI Search](https://github.com/utpal-maiti/Azure_AI_Services)
 - [Azure OpenAl](https://github.com/utpal-maiti/Azure_AI_Services)
+
 ## .NET Full Stack Software Engineer ✔️
+
 - [.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/)
 - [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
@@ -57,4 +68,3 @@ It's always nice to connect professional profiles with open-source contributions
 - [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
 - [SQL Server](/InterviewQuestionsAnswers/SQLServer/) ✔️
 - [Microsoft Business Intelligence (SSIS, SSRS, SSAS)](/InterviewQuestionsAnswers/MicrosoftBusinessIntelligence/) ✔️
-
