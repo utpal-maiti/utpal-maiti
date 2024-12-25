@@ -133,4 +133,4 @@ Here's a simple example of deploying an ASP.NET Core app to Azure App Service:
 **Azure Autoscaling**
 
 - **Microsoft Docs - Autoscaling in Azure App Service:** [Best practices for autoscaling in Azure App Service](https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling)
--
+
