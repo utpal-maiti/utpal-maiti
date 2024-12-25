@@ -76,8 +76,8 @@ Here's a simple example of deploying an ASP.NET Core app to Azure App Service:
 
    - Use the Azure portal to monitor app performance.
    - Scale your app as needed based on traffic and usage.
-     **Exam AZ-204: Developing Solutions for Microsoft Azure**
 
+**Exam AZ-204: Developing Solutions for Microsoft Azure**
 **Learning Resources**
 
 - **Microsoft Official Learning Path:** [AZ-204: Developing Solutions for Microsoft Azure](https://docs.microsoft.com/en-us/learn/certifications/exams/az-204)
