@@ -1,3 +1,12 @@
+## AI-102-AIEngineer
+
+- [mslearn-ai-services](https://github.com/utpal-maiti/mslearn-ai-services)
+- [mslearn-ai-vision](https://github.com/utpal-maiti/mslearn-ai-vision)
+- [mslearn-ai-language](https://github.com/utpal-maiti/mslearn-ai-language)
+- [mslearn-ai-document-intelligence](https://github.com/utpal-maiti/mslearn-ai-document-intelligence)
+- [mslearn-knowledge-mining](https://github.com/utpal-maiti/mslearn-knowledge-mining)
+- [mslearn-openai](https://github.com/utpal-maiti/mslearn-openai)
+
 Azure is Microsoft's cloud computing platform, which offers a wide range of services and solutions to build, deploy, and manage applications and services through Microsoft-managed data centers. Here's an in-depth look at Azure:
 
 ### **1. Core Services**
