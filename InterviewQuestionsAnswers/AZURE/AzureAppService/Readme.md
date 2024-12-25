@@ -76,61 +76,61 @@ Here's a simple example of deploying an ASP.NET Core app to Azure App Service:
 
    - Use the Azure portal to monitor app performance.
    - Scale your app as needed based on traffic and usage.
+     **Exam AZ-204: Developing Solutions for Microsoft Azure**
 
-5. Exam AZ-204: Developing Solutions for Microsoft Azure
-   1. https://docs.microsoft.com/en-us/learn/certifications/exams/az-204
+**Learning Resources**
 
-- Run a basic web application in Azure
+- **Microsoft Official Learning Path:** [AZ-204: Developing Solutions for Microsoft Azure](https://docs.microsoft.com/en-us/learn/certifications/exams/az-204)
 
-  - https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/basic-web-app
+**Running a Basic Web Application in Azure**
 
-- App Service pricing
+- **Microsoft Docs - Create a basic web app in Azure App Service:** [Create a basic web app in Azure App Service](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/basic-web-app)
 
-  - https://azure.microsoft.com/en-us/pricing/details/app-service/windows/
+**App Service Pricing**
 
-- Introduction to the App Service Environments
+- **Microsoft Azure Pricing - App Service/Windows:** [App Service pricing details](https://azure.microsoft.com/en-us/pricing/details/app-service/windows/)
 
-  - https://docs.microsoft.com/en-us/azure/app-service/environment/intro
+**Introduction to the App Service Environments**
 
-- Create App Service via Azure CLI
+- **Microsoft Docs - Introduction to App Service environments:** [Introduction to App Service environments](https://docs.microsoft.com/en-us/azure/app-service/environment/intro)
 
-  - https://gist.github.com/mikepfeiffer/7a3a8d12a42ec705233ceee3f3844a35
+**Creating an App Service via Azure CLI**
 
-- Azure CLI - az group create
-  - https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az_group_create
+- **GitHub Gist - Create an App Service plan, web app, and deploy code using Azure CLI:** [Create an App Service plan, web app, and deploy code using Azure CLI](https://gist.github.com/mikepfeiffer/7a3a8d12a42ec705233ceee3f3844a35)
+  - The gist includes instructions on using the following Azure CLI commands:
+    - `az group create` ([Link to az group create docs](https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az_group_create))
+    - `az appserviceplan create` ([Link to az appserviceplan create docs](https://docs.microsoft.com/en-us/cli/azure/appservice/plan?view=azure-cli-latest#az_appservice_plan_create))
+    - `az webapp create` ([Link to az webapp create docs](https://docs.microsoft.com/en-us/cli/azure/webapp?view=azure-cli-latest#az_webapp_create))
 
-Azure CLI - az appserviceplan create
-https://docs.microsoft.com/en-us/cli/azure/appservice/plan?view=azure-cli-latest#az_appservice_plan_create
+**PowerShell Samples for Azure App Service**
 
-Azure CLI - az webapp create
-https://docs.microsoft.com/en-us/cli/azure/webapp?view=azure-cli-latest#az_webapp_create
+- **Microsoft Docs - PowerShell samples for Azure App Service:** [PowerShell samples for Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/samples-powershell)
 
-PowerShell samples for Azure App Service
-https://docs.microsoft.com/en-us/azure/app-service/samples-powershell
+**Deploying a Basic Linux Web App with ARM Template**
 
-Deploy a basic Linux web app - ARM Template
-https://azure.microsoft.com/en-us/resources/templates/101-webapp-basic-linux/
+- **Microsoft Azure - Deploy a basic Linux web app - ARM Template:** [Deploy a basic Linux web app to Azure App Service using an ARM template](https://azure.microsoft.com/en-us/resources/templates/101-webapp-basic-linux/)
 
-Secure a custom DNS name with a TLS/SSL binding in Azure App Service
-https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-bindings
+**Securing a Custom DNS Name with TLS/SSL Binding in Azure App Service**
 
-Configure an App Service app in the Azure portal
-https://docs.microsoft.com/en-us/azure/app-service/configure-common
+- **Microsoft Docs - Secure a custom DNS name with a TLS/SSL binding in Azure App Service:** [How to secure a custom DNS name with a TLS/SSL binding in Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/configure-ssl-bindings)
 
-Enable diagnostics logging for apps in Azure App Service
-https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs
+**Configuring an App Service App in the Azure Portal**
 
-Continuous deployment to Azure App Service
-https://docs.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment
+- **Microsoft Docs - Configure an App Service app in the Azure portal:** [Configure a web app in Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/configure-common)
 
-GitHub Demo Repo
-https://github.com/mikepfeiffer/aspnetcore3.1
+**Enabling Diagnostics Logging for Apps in Azure App Service**
 
-Azure Autoscaling
-https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling
+- **Microsoft Docs - Enable diagnostics logging for apps in Azure App Service:** [Troubleshoot web app problems in Azure App Service using diagnostic logs](https://docs.microsoft.com/en-us/azure/app-service/troubleshoot-diagnostic-logs)
 
-Scale up an app in Azure App Service
-https://docs.microsoft.com/en-us/azure/app-service/manage-scale-up
+**Continuous Deployment to Azure App Service**
 
-Get started with Autoscale in Azure
-https://docs.microsoft.com/en-us/azure/azure-monitor/platform/autoscale-get-started?toc=/azure/app-service/toc.json
+- **Microsoft Docs - Continuous deployment to Azure App Service:** [Continuously deploy web apps to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment)
+
+**Additional Resources**
+
+- **GitHub Demo Repo - ASP.NET Core 3.1 web app on Azure App Service:** [GitHub Demo Repo - ASP.NET Core 3.1 web app on Azure App Service](https://github.com/mikepfeiffer/aspnetcore3.1)
+
+**Azure Autoscaling**
+
+- **Microsoft Docs - Autoscaling in Azure App Service:** [Best practices for autoscaling in Azure App Service](https://docs.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling)
+-
