@@ -25,14 +25,13 @@ It's always nice to connect professional profiles with open-source contributions
 - [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/) ✔️
 - [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/) ✔️
 - [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault) ✔️
-- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
 - [Azure Service Bus](https://github.com/utpal-maiti/Azure_Service_Bus) ✔️
-- [Azure Event Grid](https://github.com/utpal-maiti/Azure_Event_Grid)
-- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
 - [Azure Application Insights](/InterviewQuestionsAnswers/AZURE/AzureApplicationInsights) ✔️
+- [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement) ✔️
+- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
+- [Azure Event Grid](https://github.com/utpal-maiti/Azure_Event_Grid)
 - [Azure Cosmos DB storage](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
 - [Azure Container](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
-- [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement) ✔️
 - [Azure Content Delivery Network (CDN)](</InterviewQuestionsAnswers/AZURE/AzureContentDeliveryNetwork(CDN)VSAzureFrontDoor(DynamicContent)>)
 - [Azure Front Door (Dynamic Content)](</InterviewQuestionsAnswers/AZURE/AzureContentDeliveryNetwork(CDN)VSAzureFrontDoor(DynamicContent)>)
 
