@@ -1,6 +1,4 @@
-# [Utpal Maiti](https://www.linkedin.com/in/utpalmaiti/)
-
-- - 👋 Hi, I’m @Utpal Maiti
+- 👋 Hi, I’m @Utpal Maiti
 - 👀 I’m interested in AI development, open-source contributions, Azure cloud computing, .NET Development
 - 🌱 I’m currently learning .. Combining .NET with Azure integration, especially in the AI space, opens up a world of possibilities.
 - 💞️ I’m looking to collaborate on innovative AI projects, community-driven coding initiatives, cloud-native applications, Azure Cloud Services
@@ -20,10 +18,10 @@ Interested In:
 
 ## [Azure](/InterviewQuestionsAnswers/AZURE/)
 
--. [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/)
--. [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/)
--. [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
--  [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/)
+- [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/) ✔️
+- [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/)  ✔️
+- [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/)
+- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)  ✔️
 
 4. [Azure Cosmos DB storage](https://github.com/utpal-maiti/Azure_Cosmos_DB/)
 5. [Azure Container](https://github.com/utpal-maiti/Azure_Container_Apps/)
