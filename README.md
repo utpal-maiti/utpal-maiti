@@ -22,9 +22,9 @@ Interested In:
 
 -. [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/)
 -. [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/)
--. [Azure API Management](/InterviewQuestionsAnswers/AZURE//AzureAPIManagement)
+-. [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
+-  [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/)
 
-3. [Azure Storage](https://github.com/utpal-maiti/Azure_Storage/)
 4. [Azure Cosmos DB storage](https://github.com/utpal-maiti/Azure_Cosmos_DB/)
 5. [Azure Container](https://github.com/utpal-maiti/Azure_Container_Apps/)
 6. [App Registrations in Azure Microsoft Entra ID](https://github.com/utpal-maiti/Azure_App_registrations-/)
