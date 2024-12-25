@@ -24,8 +24,8 @@ It's always nice to connect professional profiles with open-source contributions
 - [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/) ✔️
 - [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/) ✔️
 - [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/) ✔️
-- [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault) ✔️
-- [Azure Service Bus](https://github.com/utpal-maiti/Azure_Service_Bus) ✔️
+- [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault/) ✔️
+- [Azure Service Bus](/InterviewQuestionsAnswers/AZURE/AzureServiceBus) ✔️
 - [Azure Application Insights](/InterviewQuestionsAnswers/AZURE/AzureApplicationInsights) ✔️
 - [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement) ✔️
 - [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
