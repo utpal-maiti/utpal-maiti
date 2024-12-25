@@ -20,7 +20,7 @@ Interested In:
 ## Azure
 
 1. [Azure App Service](https://github.com/utpal-maiti/Azure_App_Service/)
-2. [Azure Functions](https://github.com/utpal-maiti/Azure_Functions_App/)
+2. [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/)
 3. [Azure Storage](https://github.com/utpal-maiti/Azure_Storage/)
 4. [Azure Cosmos DB storage](https://github.com/utpal-maiti/Azure_Cosmos_DB/)
 5. [Azure Container](https://github.com/utpal-maiti/Azure_Container_Apps/)
