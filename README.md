@@ -12,67 +12,21 @@
 - [Azure Labs Questions & Answers](/AzureLabs)
 
 It's always nice to connect professional profiles with open-source contributions.
-Interested In:
+# [Skills Summary]()
 ## [Azure](/InterviewQuestionsAnswers/AZURE/)
-
 - [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/) ✔️
 - [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/)  ✔️
 - [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/)
 - [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)  ✔️
+- [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault)  ✔️
+- [Azure Application Insights](/InterviewQuestionsAnswers/AZURE/AzureApplicationInsights)  ✔️
+- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)  ✔️
+- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)  ✔️
+- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)  ✔️
+- [Azure Content Delivery Network (CDN) VS Azure Front Door (Dynamic Content)](/InterviewQuestionsAnswers/AZURE/AzureContentDeliveryNetwork(CDN)VSAzureFrontDoor(DynamicContent))  ✔️
+## [.NET Full Stack Software Engineer]() ✔️
+- [Angular (Angular 2 and Beyond)](/InterviewQuestionsAnswers/ANGUALR) ✔️
+- [React](/InterviewQuestionsAnswers/REACT) ✔️
+- [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
+- [SQL Server](/InterviewQuestionsAnswers/SQLServer/) ✔️
 
-4. [Azure Cosmos DB storage](https://github.com/utpal-maiti/Azure_Cosmos_DB/)
-5. [Azure Container](https://github.com/utpal-maiti/Azure_Container_Apps/)
-6. [App Registrations in Azure Microsoft Entra ID](https://github.com/utpal-maiti/Azure_App_registrations-/)
-7. [Azure Key Vault](https://github.com/utpal-maiti/Azure_Key_Vault/)
-9. [Azure Event Grid](https://github.com/utpal-maiti/Azure_Event_Grid)
-10. [Azure Service Bus](https://github.com/utpal-maiti/Azure_Service_Bus)
-11. [Azure Application Insights](https://github.com/utpal-maiti/Azure_Application_Insights)
-12. [Azure Content Delivery Network (CDN) VS Azure Front Door (Dynamic Content)](https://github.com/utpal-maiti/Azure_Content_Delivery_Network)
-
-1. [Azure AI Services](https://github.com/utpal-maiti/Azure_AI_Services)
-   1. [Azure AI Language](./)
-   2. [Azure AI Translator](./)
-   3. [Azure AI Speech](./)
-   4. [Azure Al Document Intelligence](./)
-   5. [Azure Al Bot](./)
-   6. [Azure Al Vision / Custom Vision](./)
-   7. [Azure AI Video Indexer](./)
-   8. [Azure AI Search](./)
-   9. [Azure OpenAl](./)
-
-## [.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/)
-
-- [ASP.NET Core API](/InterviewQuestionsAnswers/DOTNETCORE/API/)
-- [ASP.NET Core MVC (Model-View-Controller)](/InterviewQuestionsAnswers/DOTNETCORE/MVC/)
-- [ASP.NET Core Razor Pages](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
-- [ASP.NET Core Blazor Server](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
-- [ASP.NET Core Blazor WebAssembly](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
-
-## [.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/)
-
-- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
-- [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
-- [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
-- [ASP.NET Web Pages](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
-
-## [SQL Server](utpal-maiti/SQLServer/)
-
-## [ANGULAR](/InterviewQuestionsAnswers/ANGUALR)
-
-- [Single Page Applications (SPAs)](/InterviewQuestionsAnswers/ANGULAR/)
-- [Progressive Web Applications (PWAs)](/InterviewQuestionsAnswers/ANGULAR/)
-- [Server-Side Rendered Applications (SSR)](/InterviewQuestionsAnswers/ANGULAR/)
-- [Static Site Generation (SSG)](/InterviewQuestionsAnswers/ANGULAR/)
-
-## [ANGULARjs](/InterviewQuestionsAnswers/ANGULARjs/)
-
-## [React](/InterviewQuestionsAnswers//REACT)
-
-- [Single Page Applications (SPAs)](/InterviewQuestionsAnswers//REACT)
-- [Progressive Web Applications (PWAs)](/InterviewQuestionsAnswers/React/)
-- [Server-Side Rendered Applications (SSR)](/InterviewQuestionsAnswers/React/)
-- [Static Site Generation (SSG)](/InterviewQuestionsAnswers/React/)
-
-## Microsoft Business Intelligence (SSIS, SSRS, SSAS):
-
-[Microsoft Business Intelligence (SSIS, SSRS, SSAS)](https://github.com/utpal-maiti/)
