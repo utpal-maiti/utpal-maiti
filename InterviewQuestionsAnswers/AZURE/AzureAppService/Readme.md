@@ -78,22 +78,26 @@ Here's a simple example of deploying an ASP.NET Core app to Azure App Service:
    - Scale your app as needed based on traffic and usage.
 
 5. Exam AZ-204: Developing Solutions for Microsoft Azure
-   https://docs.microsoft.com/en-us/learn/certifications/exams/az-204
+   1. https://docs.microsoft.com/en-us/learn/certifications/exams/az-204
 
-Run a basic web application in Azure
-https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/basic-web-app
+- Run a basic web application in Azure
 
-App Service pricing
-https://azure.microsoft.com/en-us/pricing/details/app-service/windows/
+  - https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/app-service-web-app/basic-web-app
 
-Introduction to the App Service Environments
-https://docs.microsoft.com/en-us/azure/app-service/environment/intro
+- App Service pricing
 
-Create App Service via Azure CLI
-https://gist.github.com/mikepfeiffer/7a3a8d12a42ec705233ceee3f3844a35
+  - https://azure.microsoft.com/en-us/pricing/details/app-service/windows/
 
-Azure CLI - az group create
-https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az_group_create
+- Introduction to the App Service Environments
+
+  - https://docs.microsoft.com/en-us/azure/app-service/environment/intro
+
+- Create App Service via Azure CLI
+
+  - https://gist.github.com/mikepfeiffer/7a3a8d12a42ec705233ceee3f3844a35
+
+- Azure CLI - az group create
+  - https://docs.microsoft.com/en-us/cli/azure/group?view=azure-cli-latest#az_group_create
 
 Azure CLI - az appserviceplan create
 https://docs.microsoft.com/en-us/cli/azure/appservice/plan?view=azure-cli-latest#az_appservice_plan_create
