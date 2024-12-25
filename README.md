@@ -5,17 +5,14 @@
 - 📫 How to reach me ... (email: utpalmaiti@outlook.com, LinkedIn: https://www.linkedin.com/in/utpalmaiti/)
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... 😄 Engaging in research and creating technical contents
--
+## [SampleProjects(Migrating)](https://github.com/UtpalMaiti/)
 - [Enterprise Skills Initiative(ESI)](https://esi.microsoft.com/)
 - [Enterprise Skills Initiative Labs(ESI)](https://esi.learnondemand.net/)
 - [Enterprise Skills Initiative Labs(GSI)](https://gsi.learnondemand.net/)
 - [Azure Labs Questions & Answers](/AzureLabs)
 
-## [SampleProjects(Migrating)](https://github.com/UtpalMaiti/)
-
 It's always nice to connect professional profiles with open-source contributions.
 Interested In:
-
 ## [Azure](/InterviewQuestionsAnswers/AZURE/)
 
 - [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/) ✔️
