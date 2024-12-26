@@ -32,6 +32,7 @@ It's always nice to connect professional profiles with open-source contributions
 - [Azure Event Grid](https://github.com/utpal-maiti/Azure_Event_Grid)
 - [Azure Cosmos DB storage](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
 - [Azure Container](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
+- [Azure Logic Apps](/InterviewQuestionsAnswers/AZURE/AzureLogicApps)
 - [Azure Content Delivery Network (CDN)](</InterviewQuestionsAnswers/AZURE/AzureContentDeliveryNetwork(CDN)VSAzureFrontDoor(DynamicContent)>)
 - [Azure Front Door (Dynamic Content)](</InterviewQuestionsAnswers/AZURE/AzureContentDeliveryNetwork(CDN)VSAzureFrontDoor(DynamicContent)>)
 
