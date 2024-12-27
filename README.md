@@ -29,7 +29,7 @@ It's always nice to connect professional profiles with open-source contributions
 - [Azure Application Insights](/InterviewQuestionsAnswers/AZURE/AzureApplicationInsights) ✔️
 - [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureMicrosoftEntraID) ✔️
 - [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
-- [Azure Event Grid](https://github.com/utpal-maiti/Azure_Event_Grid)
+- [Azure Event Grid](/InterviewQuestionsAnswers/AZURE/AzureEventGrid)
 - [Azure Cosmos DB storage](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
 - [Azure Container](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
 - [Azure Logic Apps](/InterviewQuestionsAnswers/AZURE/AzureLogicApps)
