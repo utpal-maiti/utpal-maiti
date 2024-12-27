@@ -1,4 +1,5 @@
-# [Azure Microsoft Entra ID & Labs](https://github.com/utpal-maiti/Azure_Application_Insights/)
+# [Azure Microsoft Entra ID & Labs](https://github.com/utpal-maiti/Azure_Microsoft_Entra_ID/)
+
 **Microsoft Entra ID** (formerly known as Azure Active Directory or Azure AD) is a cloud-based identity and access management service provided by Microsoft. It helps organizations manage user identities and access to resources both within and outside their corporate networks. Here are some key concepts and details:
 
 ### **Core Concepts**

@@ -27,7 +27,7 @@ It's always nice to connect professional profiles with open-source contributions
 - [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault/) ✔️
 - [Azure Service Bus](/InterviewQuestionsAnswers/AZURE/AzureServiceBus) ✔️
 - [Azure Application Insights](/InterviewQuestionsAnswers/AZURE/AzureApplicationInsights) ✔️
-- [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement) ✔️
+- [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureMicrosoftEntraID) ✔️
 - [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
 - [Azure Event Grid](https://github.com/utpal-maiti/Azure_Event_Grid)
 - [Azure Cosmos DB storage](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
