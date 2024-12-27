@@ -22,13 +22,13 @@ It's always nice to connect professional profiles with open-source contributions
 ###### Microsoft Certified: Azure Developer Associate (AZ-204)
 
 - [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/) :white_check_mark:
-- [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/) ✔️
-- [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/) ✔️
-- [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault/) ✔️
-- [Azure Service Bus](/InterviewQuestionsAnswers/AZURE/AzureServiceBus) ✔️
-- [Azure Application Insights](/InterviewQuestionsAnswers/AZURE/AzureApplicationInsights) ✔️
-- [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureMicrosoftEntraID) ✔️
-- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
+- [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/) :white_check_mark:
+- [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/) :white_check_mark:
+- [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault/) :white_check_mark:
+- [Azure Service Bus](/InterviewQuestionsAnswers/AZURE/AzureServiceBus) :white_check_mark:
+- [Azure Application Insights](/InterviewQuestionsAnswers/AZURE/AzureApplicationInsights) :white_check_mark:
+- [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureMicrosoftEntraID) :white_check_mark:
+- [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement) ✔️
 - [Azure Event Grid](/InterviewQuestionsAnswers/AZURE/AzureEventGrid)
 - [Azure Cosmos DB storage](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
 - [Azure Container](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
@@ -49,29 +49,29 @@ It's always nice to connect professional profiles with open-source contributions
 - [Azure AI Search](https://github.com/utpal-maiti/Azure_AI_Services)
 - [Azure OpenAl](https://github.com/utpal-maiti/Azure_AI_Services)
 
-## .NET Full Stack Software Engineer ✔️
+## .NET Full Stack Software Engineer :white_check_mark:
 
-- [.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/) ✔️
-- [ASP.NET Core API](/InterviewQuestionsAnswers/DOTNETCORE/API/) ✔️
+- [.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/) 
+- [ASP.NET Core API](/InterviewQuestionsAnswers/DOTNETCORE/API/) :white_check_mark:
 - [ASP.NET Core MVC (Model-View-Controller)](/InterviewQuestionsAnswers/DOTNETCORE/MVC/)
 - [ASP.NET Core Blazor Server](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Core Blazor WebAssembly](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/) ✔️
-- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) :white_check_mark:
+- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) 
 - [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
 - [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
-- [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents/) ✔️
+- [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents/) :white_check_mark:
 - [Entity Framework(Core)](/InterviewQuestionsAnswers/EntityFramework) ✔️
-- [Dapper](/InterviewQuestionsAnswers/Dapper) ✔️
-- [Language Integrated Query (LINQ)](/InterviewQuestionsAnswers/LanguageIntegratedQuery) ✔️
+- [Dapper](/InterviewQuestionsAnswers/Dapper) :white_check_mark:
+- [Language Integrated Query (LINQ)](/InterviewQuestionsAnswers/LanguageIntegratedQuery) :white_check_mark:
 - [Source Control(Git)](/InterviewQuestionsAnswers/ANGUALR) ✔️
-- [Angular (Angular 2 and Beyond)](/InterviewQuestionsAnswers/ANGUALR) ✔️
-- [React](/InterviewQuestionsAnswers/REACT) ✔️
+- [Angular (Angular 2 and Beyond)](/InterviewQuestionsAnswers/ANGUALR) :white_check_mark:
+- [React](/InterviewQuestionsAnswers/REACT) :white_check_mark:
 - [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
-- [SQL Server](/InterviewQuestionsAnswers/SQLServer/) ✔️
+- [SQL Server](/InterviewQuestionsAnswers/SQLServer/) :white_check_mark:
 - [Microsoft Business Intelligence (SSIS, SSRS, SSAS)](/InterviewQuestionsAnswers/MicrosoftBusinessIntelligence/)
-- [Application Architecture](/InterviewQuestionsAnswers/ApplicationArchitecture)
-- [Design Pattern](/InterviewQuestionsAnswers/DesignPattern)
+- [Application Architecture](/InterviewQuestionsAnswers/ApplicationArchitecture) ✔️
+- [Design Pattern](/InterviewQuestionsAnswers/DesignPattern) ✔️
 - [Docker](/InterviewQuestionsAnswers/Docker)
 - [Source Control](/InterviewQuestionsAnswers/SourceControl)
 - [Project Management](/InterviewQuestionsAnswers/ProjectManagement)
