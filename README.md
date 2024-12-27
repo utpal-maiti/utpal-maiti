@@ -21,7 +21,7 @@ It's always nice to connect professional profiles with open-source contributions
 
 ###### Microsoft Certified: Azure Developer Associate (AZ-204)
 
-- [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/) ✔️
+- [Azure App Service](/InterviewQuestionsAnswers/AZURE/AzureAppService/) :white_check_mark:
 - [Azure Functions](/InterviewQuestionsAnswers/AZURE/AzureFunctions/) ✔️
 - [Azure Storage](/InterviewQuestionsAnswers/AZURE/AzureStorage/) ✔️
 - [Azure Key Vault](/InterviewQuestionsAnswers/AZURE/AzureKeyVault/) ✔️
@@ -57,7 +57,7 @@ It's always nice to connect professional profiles with open-source contributions
 - [ASP.NET Core Blazor Server](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Core Blazor WebAssembly](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/) ✔️
-- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
+- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) :white_check_mark:
 - [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
 - [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
 - [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents/) ✔️
