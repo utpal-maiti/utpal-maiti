@@ -1,8 +1,5 @@
 ﻿# [Azure API Management & Labs](https://github.com/utpal-maiti/Azure_API_Management/)  
 
-Guidance:
-https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_08.html
-
 **Azure API Management** is a fully managed service that enables you to publish, secure, and scale APIs across different environments. It acts as a gateway for your APIs, providing a range of features to manage and monitor API usage. Here are some key features and benefits:
 
 ### Key Features of Azure API Management
