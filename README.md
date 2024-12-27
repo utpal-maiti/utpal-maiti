@@ -51,20 +51,25 @@ It's always nice to connect professional profiles with open-source contributions
 
 ## .NET Full Stack Software Engineer ✔️
 
-- [.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/) ✔️
-- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
-- [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
-- [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
-- [.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/) ✔️
+[.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/) ✔️
+
 - [ASP.NET Core API](/InterviewQuestionsAnswers/DOTNETCORE/API/) ✔️
 - [ASP.NET Core MVC (Model-View-Controller)](/InterviewQuestionsAnswers/DOTNETCORE/MVC/)
 - [ASP.NET Core Blazor Server](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Core Blazor WebAssembly](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
+
+- [.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/) ✔️
+- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
+- [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
+- [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
+
 - [EntityFramework(Core)](/InterviewQuestionsAnswers/EntityFramework) ✔️
 - [Dapper](/InterviewQuestionsAnswers/Dapper) ✔️
 - [SourceControl(Git)](/InterviewQuestionsAnswers/ANGUALR) ✔️
+
 - [Angular (Angular 2 and Beyond)](/InterviewQuestionsAnswers/ANGUALR) ✔️
 - [React](/InterviewQuestionsAnswers/REACT) ✔️
 - [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
+
 - [SQL Server](/InterviewQuestionsAnswers/SQLServer/) ✔️
 - [Microsoft Business Intelligence (SSIS, SSRS, SSAS)](/InterviewQuestionsAnswers/MicrosoftBusinessIntelligence/)
