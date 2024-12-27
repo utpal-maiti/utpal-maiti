@@ -78,3 +78,6 @@ It's always nice to connect professional profiles with open-source contributions
 - [OOPS Concept](/InterviewQuestionsAnswers/OOPSConcept)
 - [System Design](/InterviewQuestionsAnswers/SystemDesign)
 - [Data Structures and Algorithms(Competitive Programming)](/InterviewQuestionsAnswers/CompetitiveProgramming)
+
+## [Executive MBA, Business Intelligence(BI) and Artificial Intelligence(AI)(Accredited by AI Society, UK)]
+
