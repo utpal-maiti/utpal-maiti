@@ -80,11 +80,11 @@ class Program
             AccountEnabled = true,
             DisplayName = "Adele Vance",
             MailNickname = "AdeleV",
-            UserPrincipalName = "AdeleV@yourtenant.onmicrosoft.com",
+            UserPrincipalName = "[BLANK]",
             PasswordProfile = new PasswordProfile
             {
                 ForceChangePasswordNextSignIn = true,
-                Password = "xWwvJ]6NMw+bWH-d"
+                Password = "[BLANK]"
             }
         };
 
