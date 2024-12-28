@@ -84,7 +84,7 @@ class Program
             PasswordProfile = new PasswordProfile
             {
                 ForceChangePasswordNextSignIn = true,
-                Password = "xWwvJ]6NMw+bWH-d"
+                Password = "[BLANK]"
             }
         };
 
