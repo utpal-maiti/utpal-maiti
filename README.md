@@ -51,13 +51,13 @@ It's always nice to connect professional profiles with open-source contributions
 
 ## .NET Full Stack Software Engineer :white_check_mark:
 
-- [.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/) 
+- [.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/)
 - [ASP.NET Core API](/InterviewQuestionsAnswers/DOTNETCORE/API/) :white_check_mark:
 - [ASP.NET Core MVC (Model-View-Controller)](/InterviewQuestionsAnswers/DOTNETCORE/MVC/)
 - [ASP.NET Core Blazor Server](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Core Blazor WebAssembly](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [.NET Framework](https://github.com/utpal-maiti/DOTNET_Framework/) ✔️
-- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) 
+- [ASP.NET Web API](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
 - [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
 - [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
 - [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents/) :white_check_mark:
@@ -81,4 +81,3 @@ It's always nice to connect professional profiles with open-source contributions
 - [Data Structures and Algorithms(Competitive Programming)](/InterviewQuestionsAnswers/CompetitiveProgramming)
 
 ###### [Executive MBA, Business Intelligence(BI) and Artificial Intelligence(AI)(Accredited by AI Society, UK)](https://isdclearning.online/mba-artificial-intelligence-and-business-intelligence/)
-
