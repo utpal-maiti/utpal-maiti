@@ -30,7 +30,7 @@ It's always nice to connect professional profiles with open-source contributions
 - [App Registration(Azure Microsoft Entra ID)](/InterviewQuestionsAnswers/AZURE/AzureMicrosoftEntraID) :white_check_mark:
 - [Azure API Management](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement) ✔️
 - [Azure Event Grid](/InterviewQuestionsAnswers/AZURE/AzureEventGrid)
-- [Azure Cosmos DB storage](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
+- [Azure Cosmos DB storage](/InterviewQuestionsAnswers/AZURE/AzureCosmosDBstorage)
 - [Azure Container](/InterviewQuestionsAnswers/AZURE/AzureAPIManagement)
 - [Azure Logic Apps](/InterviewQuestionsAnswers/AZURE/AzureLogicApps)
 - [Azure Content Delivery Network (CDN)](</InterviewQuestionsAnswers/AZURE/AzureContentDeliveryNetwork(CDN)VSAzureFrontDoor(DynamicContent)>)
@@ -61,7 +61,7 @@ It's always nice to connect professional profiles with open-source contributions
 - [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
 - [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
 - [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents/) :white_check_mark:
-- [ADO.NET](/InterviewQuestionsAnswers/ADO.NET) ✔️
+- [ADO.NET](/InterviewQuestionsAnswers/ADO.NET) :white_check_mark:
 - [Entity Framework(Core)](/InterviewQuestionsAnswers/EntityFramework) ✔️
 - [Dapper](/InterviewQuestionsAnswers/Dapper) :white_check_mark:
 - [Language Integrated Query (LINQ)](/InterviewQuestionsAnswers/LanguageIntegratedQuery) :white_check_mark:
