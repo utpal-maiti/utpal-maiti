@@ -51,7 +51,7 @@ It's always nice to connect professional profiles with open-source contributions
 
 ## .NET Full Stack Software Engineer :white_check_mark:
 
-- [.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/)
+- [.NET CORE](/InterviewQuestionsAnswers/DOTNETCORE/) :white_check_mark:
 - [ASP.NET Core API](/InterviewQuestionsAnswers/DOTNETCORE/API/) :white_check_mark:
 - [ASP.NET Core MVC (Model-View-Controller)](/InterviewQuestionsAnswers/DOTNETCORE/MVC/)
 - [ASP.NET Core Blazor Server](https://github.com/utpal-maiti/DOTNET_CORE/MVC/)
