@@ -105,3 +105,35 @@ using (var channel = connection.CreateModel())
     Console.WriteLine(" [x] Sent {0}", message);
 }
 ```
+Great question! Choosing between threads and tasks depends on the specific requirements of your application. Here's a breakdown to help you decide:
+
+### When to Use Threads
+- **Low-Level Control**: If you need fine-grained control over the execution of your code, such as setting thread priorities or handling thread-specific data.
+- **Long-Running Operations**: For operations that will run for a long time and need to be managed independently.
+- **Legacy Code**: When working with legacy code that already uses threads.
+
+### When to Use Tasks
+- **Asynchronous Programming**: Tasks are ideal for asynchronous operations, especially when using the `async` and `await` keywords.
+- **Parallel Programming**: The Task Parallel Library (TPL) provides a higher level of abstraction for parallel programming, making it easier to manage.
+- **Short-Lived Operations**: Tasks are more efficient for short-lived operations due to their lower overhead compared to threads.
+- **Error Handling**: Tasks provide better mechanisms for error handling and continuation.
+
+### Example Scenarios
+
+#### Using Threads
+```csharp
+Thread thread = new Thread(() => {
+    // Long-running operation
+});
+thread.Start();
+```
+
+#### Using Tasks
+```csharp
+Task.Run(async () => {
+    // Asynchronous operation
+    await SomeAsyncMethod();
+});
+```
+
+In summary, use **threads** when you need low-level control and are dealing with long-running operations. Use **tasks** for most other scenarios, especially when dealing with asynchronous programming and parallelism.
