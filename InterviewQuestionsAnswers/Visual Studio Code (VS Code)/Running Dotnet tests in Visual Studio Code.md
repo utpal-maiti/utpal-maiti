@@ -30,7 +30,16 @@ Running tests for a single file in Visual Studio Code involves a few additional 
    }
    ```
 
-6. **Run Tests for a Single File**:
+6. **Run Tests**:
+
+   - Open the terminal in Visual Studio Code.
+   - Navigate to the test project directory.
+   - Run the tests using:
+     ```bash
+     dotnet test
+     ```
+
+7. **Run Tests for a Single File**:
 
    - Open the terminal in Visual Studio Code.
    - Navigate to the directory containing the specific test file.
@@ -39,9 +48,6 @@ Running tests for a single file in Visual Studio Code involves a few additional 
      dotnet test --filter FullyQualifiedName~Namespace.ClassName
      ```
      Replace `Namespace.ClassName` with the actual namespace and class name of your test file.
-
-7. **View Results**: The test results will be displayed in the terminal, showing which tests passed and which failed.
-   To run tests for a single method in a file using Visual Studio Code, follow these steps:
 
 8. **Run Tests for a Single Method**:
    - Open the terminal in Visual Studio Code.
@@ -57,3 +63,6 @@ For example, if you want to run `Test1` in the `MyTests` class within the `MyTes
 ```bash
 dotnet test --filter FullyQualifiedName~MyTestProject.MyTests.Test1
 ```
+
+7. **View Results**: The test results will be displayed in the terminal, showing which tests passed and which failed.
+   To run tests for a single method in a file using Visual Studio Code, follow these steps:
