@@ -18,77 +18,66 @@ flowchart TD
     I[User Education Specialist]    -->|Creates documentation       | J[End Users]
 ```
 
+# Stages of Product Development (Mermaid Format)
+
 ```mermaid
-Stages of Product Development
+flowchart TD
+    X[Customer] -->|Requirement Gathering| A[Product Manager]
+    A -->|Requirement Prioritization| B[Business Analyst]
+    B -->|Requirement Specification (UACs)| C[Business Analyst]
+    C -->|Requirement Validation with Owners| D[Business Analyst]
+    D -->|If Successful| E[Requirement Sign-Off]
+    D -->|If NOT Successful| X
 
-1.  X[Customer] -->|Requirement Gathering | B[Business Analyst] A[Product Manager]
-2.  A[Product Manager]      -->| Requirement Prioritazation - A[Product Manager]
-3.  Requirement Sperification(UACs) - B[Business Analyst]
-4.  Requirement Validation with Requirement Owners - B[Business Analyst]
-5.  If Requirement Successful - B[Business Analyst] or NOT Successful - Go back to stage 1
-6.  Requirement Sign Off - B[Business Analyst]
+    E -->|Wireframing| F[UI/UX Engineer]
+    F -->|User Validation| G[UI/UX Engineer]
+    G -->|If Successful| H[UI Design]
+    G -->|If NOT Successful| F
 
-7.  WireFraming - C[UI/UX Engineer]
-8.  User Validation - C[UI/UX Engineer]
-9.  If WireFraming Successful - C[UI/UX Engineer] or NOT Successful - Go back to stage 7
+    H -->|UI Design Review| I[UI/UX Engineer]
+    I -->|If Accepted| J[Technical Design]
+    I -->|If NOT Accepted| H
 
-10. UI Design - C[UI/UX Engineer]
-11. UI Design Review - C[UI/UX Engineer]
-12. If UI Design Accepted - C[UI/UX Engineer] or NOT Accepted - Go back to stage 10
+    J -->|Technical Design Review| K[Tech Lead]
+    K -->|If Accepted| L[Test Design]
+    K -->|If NOT Accepted| J
 
-13. Technical Design - D[Tech Lead]
-14. Technical Design Review - D[Tech Lead]
-15. If Technical Design Accepted - D[Tech Lead] or NOT Accepted - Go back to stage 13
+    L -->|Test Design Review| M[QA Lead]
+    M -->|If Accepted| N[Test Cases]
+    M -->|If NOT Accepted| L
 
-16. If Technical Design & UI Design are Accepted - THEN Only Next Stage
+    N -->|Test Cases Review with UACs| O[Business Analyst]
+    O -->|If Accepted| P[POC]
+    O -->|If NOT Accepted| N
 
-17. Test Design - K[QA Lead]
-18. Test Design Review - K[QA Lead]
-19. If Test Design Accepted - K[QA Lead] or NOT Accepted - Go back to stage 17
+    P -->|Implementation| Q[Software Engineer]
+    Q -->|Unit Testing| R[Software Engineer]
+    R -->|Dev Testing with Test Cases| S[Software Engineer]
+    S -->|If Passed| T[Code Review]
+    S -->|If NOT Passed| Q
 
-20. Test Cases - F[QA Engineer]
-21. Test Cases Review - K[QA Lead]
-22. If Test Design Accepted - K[QA Lead] or NOT Accepted - Go back to stage 20
+    T -->|If Accepted| U[UI & UAC Review]
+    T -->|If NOT Accepted| Q
 
-23. Test Cases Review with UACs - B[Business Analyst]
-24. If Test Cases Review with UACs Accepted - K[QA Lead] or NOT Accepted - Go back to stage 20
+    U -->|If Accepted| V[Raise PR]
+    U -->|If NOT Accepted| Q
 
-25. POC - E[Software Engineer]
-26. Implementation - E[Software Engineer]
-27. Unit Testing - E[Software Engineer]
-28. Dev Testing with the test cases - E[Software Engineer]
-29. If Test Cases Passed - E[Software Engineer] or NOT Accepted - Go back to stage 26
+    V -->|PR Review| W[Tech Lead]
+    W -->|If Accepted| X[PR Merged]
+    W -->|If NOT Accepted| V
 
-30. Code Review - D[Tech Lead]
-31. If Code Review Accepted - E[Software Engineer] or NOT Accepted - Go back to stage 26
+    X -->|QA Testing in Test Slot| Y[QA Engineer]
+    Y -->|If Passed| Z[Test Automation]
+    Y -->|If NOT Passed| Q
 
-32. UI & UAC Review - B[Business Analyst]=C[UI/UX Engineer]
-33. If UI & UAC Review Accepted - B[Business Analyst]=C[UI/UX Engineer] or NOT Accepted - Go back to stage 26
+    Z -->|If Passed| AA[Push Release to Staging]
+    Z -->|If NOT Passed| Q
 
-34. Raise a PR - E[Software Engineer]
-35. PR Review - D[Tech Lead]
-36. If PR Review Accepted - D[Tech Lead] or NOT Accepted
-
-37. [NOT Accepted (36)] Fix the issuesand commit to the PR - E[Software Engineer] and Go back to stage 35
-38. [Accepted (36)] PR marged - E[Software Engineer]
-
-39. QA testing in the Test Slot - F[QA Engineer]
-40. If passed - F[QA Engineer] or NOT Passed -Create a Defect -Go back to 26.
-
-41. Test Automation - G[QA Automation Engineer]
-42. If passed - G[QA Automation Engineer] or NOT Passed -Create a Defect -Go back to 26.
-
-43. If Stage 41=stage 39 then NEXT Stage
-
-44. push the release to staging slots - H[DevOps Engineer]
-45. push the release to prod - H[DevOps Engineer]
-
-46. End User Documentation - I[User Education Specialist]
-47. Training Video - I[User Education Specialist]
-48. Release Material - I[User Education Specialist]
-
-49. END --Closure
-
+    AA -->|Push Release to Prod| AB[DevOps Engineer]
+    AB -->|End User Documentation| AC[User Education Specialist]
+    AC -->|Training Video| AD[User Education Specialist]
+    AD -->|Release Material| AE[User Education Specialist]
+    AE -->|END| AF[Closure]
 ```
 
 ## 1. Product Manager (PM)
