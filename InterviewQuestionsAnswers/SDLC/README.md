@@ -22,18 +22,21 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    1[Customer] -->|Requirement Gathering| 2[Product Manager=Business Analyst]
-    2[Product Manager] -->|Requirement Prioritization| 3[Business Analyst]
-    3[Business Analyst] -->|Requirement Specification with UACs| 3[Business Analyst]
-    3[Business Analyst] -->|Requirement Validation with Owners| 3[Business Analyst]
-    3[Business Analyst] -->|If Successful| 3[Business Analyst]
-    3[Business Analyst] -->|If Successful- Requirement Sign-Off| 3[Business Analyst]
+    1[Requirement Gathering] -->|   A[Product Manager=Business Analyst]     | 2[Requirement Prioritization]
+    2[Requirement Prioritization] -->|  B[Product Manager]   | 3[Requirement Specification with UACs]
+    3[Requirement Specification with UACs] -->| C[Business Analyst]| 4[Requirement Validation with Owners]
+    4[Requirement Validation with Owners] -->| C[Business Analyst] | 5[If Successful]
+    5[If Successful OR NOT] -->|   C[Business Analyst]          | 6[If Successful- Requirement Sign-Off]
+    5[If Successful OR NOT] -->|    A[Product Manager=Business Analyst]          |  1[Requirement Gathering]
+
+
     3[Business Analyst] -->|If NOT Successful| 2[Product Manager=Business Analyst]
 
-    E -->|Wireframing| F[UI/UX Engineer]
-    F -->|User Validation| G[UI/UX Engineer]
-    G -->|If Successful| H[UI Design]
-    G -->|If NOT Successful| F
+
+    3[Business Analyst] -->|Wireframing| 4[UI/UX Engineer]
+    4[UI/UX Engineer] -->|User Validation| G[UI/UX Engineer]
+    4[UI/UX Engineer] -->|If Successful| 4[UI/UX Engineer]
+    4[UI/UX Engineer] -->|If NOT Successful| F
 
     H -->|UI Design Review| I[UI/UX Engineer]
     I -->|If Accepted| J[Technical Design]
