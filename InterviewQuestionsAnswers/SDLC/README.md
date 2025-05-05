@@ -36,8 +36,9 @@ flowchart TD
     9[If WireFraming Successful OR NOT] -->|   UI/UX Engineer          | 10[UI Design]
 
     10[UI Design] -->|   UI/UX Engineer          | 11[UI Design Review]
-    11 -->|   UI/UX Engineer          | 11[If UI Design Accepted or NOT]
-
+    11 -->|   UI/UX Engineer          | 12[If UI Design Accepted or NOT]
+    12 -->|   UI/UX Engineer          | 10[UI Design]
+    12 -->|   UI/UX Engineer          | 13[echnical Design]
 
 
 
