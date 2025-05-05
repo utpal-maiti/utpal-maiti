@@ -23,10 +23,10 @@ flowchart TD
 ```mermaid
 flowchart TD
     1[Requirement Gathering] -->|   Product Manager=Business Analyst     | 2[Requirement Prioritization]
-    2[Requirement Prioritization] -->|  B[Product Manager]   | 3[Requirement Specification with UACs]
-    3[Requirement Specification with UACs] -->| C[Business Analyst]| 4[Requirement Validation with Owners]
-    4[Requirement Validation with Owners] -->| C[Business Analyst] | 5[If Successful]
-    5[If Successful OR NOT] -->|   C[Business Analyst]          | 6[If Successful- Requirement Sign-Off]
+    2[Requirement Prioritization] -->|  Product Manager   | 3[Requirement Specification with UACs]
+    3[Requirement Specification with UACs] -->| Business Analyst | 4[Requirement Validation with Owners]
+    4[Requirement Validation with Owners] -->| Business Analyst | 5[If Successful]
+    5[If Successful OR NOT] -->|   Business Analyst          | 6[If Successful- Requirement Sign-Off]
     5[If Successful OR NOT] -->|    Product Manager=Business Analyst          |  1[Requirement Gathering]
 
 <!--
