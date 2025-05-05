@@ -22,15 +22,15 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    1[Requirement Gathering] -->|   A[Product Manager/Business Analyst]     | 2[Requirement Prioritization]
+    1[Requirement Gathering] -->|   Product Manager=Business Analyst     | 2[Requirement Prioritization]
     2[Requirement Prioritization] -->|  B[Product Manager]   | 3[Requirement Specification with UACs]
     3[Requirement Specification with UACs] -->| C[Business Analyst]| 4[Requirement Validation with Owners]
     4[Requirement Validation with Owners] -->| C[Business Analyst] | 5[If Successful]
     5[If Successful OR NOT] -->|   C[Business Analyst]          | 6[If Successful- Requirement Sign-Off]
-    5[If Successful OR NOT] -->|    A[Product Manager=Business Analyst]          |  1[Requirement Gathering]
+    5[If Successful OR NOT] -->|    Product Manager=Business Analyst          |  1[Requirement Gathering]
 
-
-    3[Business Analyst] -->|If NOT Successful| 2[Product Manager=Business Analyst]
+<!--
+    3[Business Analyst] -->|If NOT Successful| Product Manager=Business Analyst
 
 
     3[Business Analyst] -->|Wireframing| 4[UI/UX Engineer]
@@ -81,7 +81,7 @@ flowchart TD
     AB -->|End User Documentation| AC[User Education Specialist]
     AC -->|Training Video| AD[User Education Specialist]
     AD -->|Release Material| AE[User Education Specialist]
-    AE -->|END| AF[Closure]
+    AE -->|END| AF[Closure] -->
 ```
 
 ## 1. Product Manager (PM)
