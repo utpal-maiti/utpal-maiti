@@ -83,9 +83,20 @@ flowchart TD
     34 -->|  Software Engineer          | 35[ PR Review]
     35 -->|  Tech Lead         | 36[ If PR Review Accepted or NOT]
 
-    36 -->|  Tech Lead         | 37[ Fix the issuesand commit to the PR]
-    36 -->|  Software Engineer         | 34[ PR marged]
+    36 -->|  Tech Lead         | 37[ Fix the issues and commit to the PR]
     37 -->|  Software Engineer         | 35[ PR Review]
+    36 -->|  Software Engineer         | 38[ PR marged]
+
+    38 -->|  Software Engineer         | 39[ QA testing in the Test Slot]
+    39 -->|  QA Engineer               | 40[ If QA testing passed or NOT]
+    40 -->|  QA Engineer               | 41[ Create a Defect]
+    40 -->|  QA Engineer               | 44[ If Stage Test Automation=stage QA testing then NEXT Stage]
+    41 -->|  QA Engineer               | 26[Implementation]
+
+    38 -->|  QA Automation Engineer        | 42[ Test Automation]
+    42 -->|  QA Automation Engineer        | 42[ If Test Automation passed or NOT]
+    42 -->|  QA Automation Engineer        | 41[ Create a Defect]
+    42 -->|  QA Automation Engineer        | 44[ If Stage Test Automation=stage QA testing then NEXT Stage]
 
 
 
@@ -149,21 +160,22 @@ flowchart TD
 38. [Accepted (36)] PR marged - E[Software Engineer]
 
 39. QA testing in the Test Slot - F[QA Engineer]
-40. If passed - F[QA Engineer] or NOT Passed -Create a Defect -Go back to 26.
+40. If passed - F[QA Engineer] or NOT Passed -
+41. Create a Defect -Go back to 26.
 
-41. Test Automation - G[QA Automation Engineer]
-42. If passed - G[QA Automation Engineer] or NOT Passed -Create a Defect -Go back to 26.
+42. Test Automation - G[QA Automation Engineer]
+43. If passed - G[QA Automation Engineer] or NOT Passed. Create a Defect(41) -Go back to 26.
 
-43. If Stage 41=stage 39 then NEXT Stage
+44. If Stage Test Automation=stage QA testing then NEXT Stage
 
-44. push the release to staging slots - H[DevOps Engineer]
-45. push the release to prod - H[DevOps Engineer]
+45. push the release to staging slots - H[DevOps Engineer]
+46. push the release to prod - H[DevOps Engineer]
 
-46. End User Documentation - I[User Education Specialist]
-47. Training Video - I[User Education Specialist]
-48. Release Material - I[User Education Specialist]
+47. End User Documentation - I[User Education Specialist]
+48. Training Video - I[User Education Specialist]
+49. Release Material - I[User Education Specialist]
 
-49. END --Closure
+50. END --Closure
 
 ## 1. Product Manager (PM)
 
