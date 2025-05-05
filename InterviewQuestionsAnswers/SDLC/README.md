@@ -53,6 +53,15 @@ flowchart TD
     19 -->|   QA Lead          | 17[Test Design]
     19 -->|   QA Lead          | 20[Test Cases]
 
+    20 -->|   QA Engineer          | 21[Test Cases Review]
+    21 -->|   QA Lead          | 22[If Test Cases Accepted or NOT]
+    22 -->|   QA Lead          | 20[Test Cases]
+    22 -->|   QA Lead          | 23[Test Cases Review with UACs]
+
+    23 -->|  Business Analyst /QA Lead        | 24[If Test Cases Review with UACs Accepted Or NOT]
+    24 -->|  Business Analyst         | 20[Test Cases]
+    24 -->|  Business Analyst         | 25[POC]
+
 
 
 
@@ -87,7 +96,7 @@ flowchart TD
 
 20. Test Cases - F[QA Engineer]
 21. Test Cases Review - K[QA Lead]
-22. If Test Design Accepted - K[QA Lead] or NOT Accepted - Go back to stage 20
+22. If Test Cases Accepted - K[QA Lead] or NOT Accepted - Go back to stage 20
 
 23. Test Cases Review with UACs - B[Business Analyst]
 24. If Test Cases Review with UACs Accepted - K[QA Lead] or NOT Accepted - Go back to stage 20
