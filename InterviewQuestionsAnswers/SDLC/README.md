@@ -80,6 +80,16 @@ flowchart TD
     33 -->|  Business Analyst/UI/UX Engineer         | 26[Implementation]
     33 -->|  Business Analyst/UI/UX Engineer         | 34[ Raise a PR]
 
+    34 -->|  Software Engineer          | 35[ PR Review]
+    35 -->|  Tech Lead         | 36[ If PR Review Accepted or NOT]
+
+    36 -->|  Tech Lead         | 37[ Fix the issuesand commit to the PR]
+    36 -->|  Software Engineer         | 34[ PR marged]
+    37 -->|  Software Engineer         | 35[ PR Review]
+
+
+
+
 
 
 
