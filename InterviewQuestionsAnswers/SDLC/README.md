@@ -47,6 +47,14 @@ flowchart TD
     15 -->|   Tech Lead / UI/UX Engineer          | 16[If Technical Design & UI Design are Accepted]
     12 -->|   Tech Lead / UI/UX Engineer          | 16[If Technical Design & UI Design are Accepted]
 
+    16 -->|   QA Lead          | 17[Test Design]
+    17 -->|   QA Lead          | 18[Test Design Review]
+    18 -->|   QA Lead          | 19[If Test Design Accepted or NOT]
+    19 -->|   QA Lead          | 17[Test Design]
+    19 -->|   QA Lead          | 20[Test Cases]
+
+
+
 
 
 
