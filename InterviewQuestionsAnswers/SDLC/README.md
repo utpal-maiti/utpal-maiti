@@ -24,7 +24,7 @@ flowchart TD
 flowchart TD
     X[Customer] -->|Requirement Gathering| A[Product Manager]
     A -->|Requirement Prioritization| B[Business Analyst]
-    B -->|Requirement Specification (UACs)| C[Business Analyst]
+    B -->|Requirement Specification with UACs| C[Business Analyst]
     C -->|Requirement Validation with Owners| D[Business Analyst]
     D -->|If Successful| E[Requirement Sign-Off]
     D -->|If NOT Successful| X
