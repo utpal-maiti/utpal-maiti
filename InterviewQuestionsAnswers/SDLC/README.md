@@ -24,10 +24,11 @@ flowchart TD
 flowchart TD
     1[Customer] -->|Requirement Gathering| 2[Product Manager=Business Analyst]
     2[Product Manager] -->|Requirement Prioritization| 3[Business Analyst]
-    B -->|Requirement Specification with UACs| C[Business Analyst]
-    C -->|Requirement Validation with Owners| D[Business Analyst]
-    D -->|If Successful| E[Requirement Sign-Off]
-    D -->|If NOT Successful| X
+    3[Business Analyst] -->|Requirement Specification with UACs| 3[Business Analyst]
+    3[Business Analyst] -->|Requirement Validation with Owners| 3[Business Analyst]
+    3[Business Analyst] -->|If Successful| 3[Business Analyst]
+    3[Business Analyst] -->|If Successful- Requirement Sign-Off| 3[Business Analyst]
+    3[Business Analyst] -->|If NOT Successful| 2[Product Manager=Business Analyst]
 
     E -->|Wireframing| F[UI/UX Engineer]
     F -->|User Validation| G[UI/UX Engineer]
