@@ -72,6 +72,14 @@ flowchart TD
 
     30 -->|  Tech Lead         | 31[ If Code Review Accepted or NOT]
 
+    31 -->|  Tech Lead         | 26[Implementation]
+    31 -->|  Tech Lead         | 32[ UI & UAC Review]
+
+    32 -->|  Business Analyst/UI/UX Engineer          | 33[ If UI & UAC Review Accepted or NOT]
+
+    33 -->|  Business Analyst/UI/UX Engineer         | 26[Implementation]
+    33 -->|  Business Analyst/UI/UX Engineer         | 34[ Raise a PR]
+
 
 
 
