@@ -18,10 +18,11 @@ flowchart TD
     I[User Education Specialist]    -->|Creates documentation       | J[End Users]
 ```
 
+```mermaid
 Stages of Product Development
 
-1.  Requirement Gathering - B[Business Analyst]=A[Product Manager]
-2.  Requirement Prioritazation - A[Product Manager]
+1.  X[Customer] -->|Requirement Gathering | B[Business Analyst] A[Product Manager]
+2.  A[Product Manager]      -->| Requirement Prioritazation - A[Product Manager]
 3.  Requirement Sperification(UACs) - B[Business Analyst]
 4.  Requirement Validation with Requirement Owners - B[Business Analyst]
 5.  If Requirement Successful - B[Business Analyst] or NOT Successful - Go back to stage 1
@@ -87,6 +88,8 @@ Stages of Product Development
 48. Release Material - I[User Education Specialist]
 
 49. END --Closure
+
+```
 
 ## 1. Product Manager (PM)
 
