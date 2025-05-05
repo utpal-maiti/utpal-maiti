@@ -27,7 +27,7 @@ flowchart TD
     3[Requirement Specification with UACs] -->| Business Analyst | 4[Requirement Validation with Owners]
     4[Requirement Validation with Owners] -->| Business Analyst | 5[If Successful]
     5[If Successful OR NOT] -->|   Business Analyst          | 6[If Successful- Requirement Sign-Off]
-    5[If Successful OR NOT] -->|    Product Manager=Business Analyst          |  1[Requirement Gathering]
+   
 
 ```
 
