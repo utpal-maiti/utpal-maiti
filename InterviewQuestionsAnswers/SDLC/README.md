@@ -106,7 +106,7 @@ flowchart TD
     44 -->|  User Education Specialist        | 47[ End User Documentation]
     47 -->|  User Education Specialist        | 48[ Training Video]
     48 -->|  User Education Specialist        | 49[ Release Material]
-    49 -->|  DevOps Engineer        | 50[ END --Closure]
+    49 -->|  User Education Specialist        | 50[ END --Closure]
 
     50 -->|  New Requirement        | 1[Requirement Gathering]
 
