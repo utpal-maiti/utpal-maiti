@@ -1,5 +1,4 @@
 <!--
- 5[If Successful OR NOT] -->|    Product Manager=Business Analyst          |  1[Requirement Gathering]
 
     3[Business Analyst] -->|If NOT Successful| Product Manager=Business Analyst
 

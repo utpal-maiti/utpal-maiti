@@ -25,9 +25,15 @@ flowchart TD
     1[Requirement Gathering] -->|   Product Manager=Business Analyst     | 2[Requirement Prioritization]
     2[Requirement Prioritization] -->|  Product Manager   | 3[Requirement Specification with UACs]
     3[Requirement Specification with UACs] -->| Business Analyst | 4[Requirement Validation with Owners]
-    4[Requirement Validation with Owners] -->| Business Analyst | 5[If Successful]
-    5[If Successful OR NOT] -->|   Business Analyst          | 6[If Successful- Requirement Sign-Off]
-    5[If Successful OR NOT] -->|  Product Manager=Business Analyst          | 1[Requirement Gathering]
+    4[Requirement Validation with Owners] -->| Business Analyst | 5[If Requirement Successful OR NOT]
+    5[If Requirement Successful OR NOT] -->|  Product Manager=Business Analyst          | 1[Requirement Gathering]
+    5[If Requirement Successful OR NOT] -->|   Business Analyst          | 6[If Successful- Requirement Sign-Off]
+    6[If Successful- Requirement Sign-Off] -->|   Business Analyst          | 7[Wireframing]
+    7[Wireframing] -->|   UI/UX Engineer          | 8[User Validation]
+    8[User Validation] -->|   UI/UX Engineer          | 9[If WireFraming Successful OR NOT]
+    9[If WireFraming NOT Successful]  -->|   UI/UX Engineer          | 7[Wireframing]
+    9[If WireFraming Successful OR NOT] -->|   UI/UX Engineer          | 10[UI Design]
+
 
 
 ```
