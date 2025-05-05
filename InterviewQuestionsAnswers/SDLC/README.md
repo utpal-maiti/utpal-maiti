@@ -62,6 +62,16 @@ flowchart TD
     24 -->|  Business Analyst         | 20[Test Cases]
     24 -->|  Business Analyst         | 25[POC]
 
+    25 -->|  Software Engineer         | 26[Implementation]
+    26 -->|  Software Engineer         | 27[Unit Testing]
+    27 -->|  Software Engineer         | 28[ Dev Testing with the test cases]
+    28 -->|  Software Engineer         | 29[ If Test Cases Passed Or NOT]
+
+    29 -->|  Software Engineer         | 26[Implementation]
+    29 -->|  Software Engineer         | 30[ Code Review]
+
+    30 -->|  Tech Lead         | 31[ If Code Review Accepted or NOT]
+
 
 
 
