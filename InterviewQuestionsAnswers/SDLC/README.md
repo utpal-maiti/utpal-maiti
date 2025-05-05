@@ -93,7 +93,7 @@ flowchart TD
     40 -->|  QA Engineer               | 44[ If Stage Test Automation=stage QA testing then NEXT Stage]
     41 -->|  QA Engineer               | 26[Implementation]
 
-    38 -->|  QA Automation Engineer        | 42[ Test Automation]
+    38 -->|  Software Engineer        | 42[ Test Automation]
     42 -->|  QA Automation Engineer        | 42[ If Test Automation passed or NOT]
     42 -->|  QA Automation Engineer        | 41[ Create a Defect]
     42 -->|  QA Automation Engineer        | 44[ If Stage Test Automation=stage QA testing then NEXT Stage]
