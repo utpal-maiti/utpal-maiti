@@ -38,7 +38,14 @@ flowchart TD
     10[UI Design] -->|   UI/UX Engineer          | 11[UI Design Review]
     11 -->|   UI/UX Engineer          | 12[If UI Design Accepted or NOT]
     12 -->|   UI/UX Engineer          | 10[UI Design]
-    12 -->|   UI/UX Engineer          | 13[echnical Design]
+    12 -->|   UI/UX Engineer          | 13[Technical Design]
+
+    13 -->|   Tech Lead          | 14[Technical Design Review]
+    14 -->|   Tech Lead          | 15[If Technical Design Accepted or NOT]
+    15 -->|   Tech Lead          | 13[Technical Design]
+
+    15 -->|   Tech Lead / UI/UX Engineer          | 16[If Technical Design & UI Design are Accepted]
+    12 -->|   Tech Lead / UI/UX Engineer          | 16[If Technical Design & UI Design are Accepted]
 
 
 
