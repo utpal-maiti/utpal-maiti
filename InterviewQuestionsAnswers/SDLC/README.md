@@ -98,6 +98,17 @@ flowchart TD
     43 -->|  QA Automation Engineer        | 41[ Create a Defect]
     43 -->|  QA Automation Engineer        | 44[ If Stage Test Automation=stage QA testing then NEXT Stage]
 
+    44 -->|  DevOps Engineer        | 45[ push the release to staging slots]
+    45 -->|  DevOps Engineer        | 46[ push the release to prod]
+
+    46 -->|  DevOps Engineer        | 50[ END --Closure]
+
+    44 -->|  User Education Specialist        | 47[ End User Documentation]
+    47 -->|  User Education Specialist        | 48[ Training Video]
+    48 -->|  User Education Specialist        | 49[ Release Material]
+    49 -->|  DevOps Engineer        | 50[ END --Closure]
+
+
 
 
 
