@@ -65,26 +65,37 @@ It's always nice to connect professional profiles with open-source contributions
 - [Entity Framework(Core)](/InterviewQuestionsAnswers/EntityFramework) ✔️
 - [Dapper](/InterviewQuestionsAnswers/Dapper) :white_check_mark:
 - [Language Integrated Query (LINQ)](/InterviewQuestionsAnswers/LanguageIntegratedQuery) :white_check_mark:
-- [Source Control](/InterviewQuestionsAnswers/SourceControl)
-- [Source Control(Git)](/InterviewQuestionsAnswers/ANGUALR) ✔️
-- [Gitguardian](/InterviewQuestionsAnswers/SourceControl/Gitguardian) ✔️
+
+###### Most Impactful and Transformative
+
+- [Application Architecture](/InterviewQuestionsAnswers/ApplicationArchitecture) ✔️
+- [Design Pattern](/InterviewQuestionsAnswers/DesignPattern) ✔️
+- [SDLC(Software Development Life Cycle)](/InterviewQuestionsAnswers/SDLC):white_check_mark:
+- [Project Management](/InterviewQuestionsAnswers/ProjectManagement)
+
+###### Databse Technologies
+
+- [Microsoft Business Intelligence (SSIS, SSRS, SSAS)](/InterviewQuestionsAnswers/MicrosoftBusinessIntelligence/)
+- [SQL Server](/InterviewQuestionsAnswers/SQLServer/) :white_check_mark:
+- [mysql](/InterviewQuestionsAnswers/mysql/) :white_check_mark:
+
+###### JavaScripts Technologies
+
 - [Angular (Angular 2 and Beyond)](/InterviewQuestionsAnswers/ANGUALR) :white_check_mark:
 - [React](/InterviewQuestionsAnswers/REACT) :white_check_mark:
 - [Next.js- React](/InterviewQuestionsAnswers/REACT/Next.js) :white_check_mark:
 - [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
-- [SQL Server](/InterviewQuestionsAnswers/SQLServer/) :white_check_mark:
-- [Microsoft Business Intelligence (SSIS, SSRS, SSAS)](/InterviewQuestionsAnswers/MicrosoftBusinessIntelligence/)
-- [Application Architecture](/InterviewQuestionsAnswers/ApplicationArchitecture) ✔️
-- [Design Pattern](/InterviewQuestionsAnswers/DesignPattern) ✔️
-- [Docker](/InterviewQuestionsAnswers/Docker)
-- [SDLC(Software Development Life Cycle)](/InterviewQuestionsAnswers/SDLC):white_check_mark:
-- [Project Management](/InterviewQuestionsAnswers/ProjectManagement)
 
-###### Emerging Technologies(Most Impactful and Transformative Technologies)
+###### Top Emerging Programming language and Freamworks
 
 - [PHP](/InterviewQuestionsAnswers/PHP/) :white_check_mark:
 - [Go lang](/InterviewQuestionsAnswers/GO/) :white_check_mark:
-- [mysql](/InterviewQuestionsAnswers/mysql/) :white_check_mark:
+- [Docker](/InterviewQuestionsAnswers/Docker)
+
+###### Emerging Technologies
+
+- [Source Control(Git)](/InterviewQuestionsAnswers/SourceControl)✔️
+- [Gitguardian](/InterviewQuestionsAnswers/SourceControl/Gitguardian) ✔️
 - [OOPS Concept](/InterviewQuestionsAnswers/OOPSConcept)
 - [System Design](/InterviewQuestionsAnswers/SystemDesign)
 - [Data Structures and Algorithms(Competitive Programming)](/InterviewQuestionsAnswers/CompetitiveProgramming)
