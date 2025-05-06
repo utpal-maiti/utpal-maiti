@@ -108,3 +108,7 @@ It's always nice to connect professional profiles with open-source contributions
 - [Data Structures and Algorithms(Competitive Programming)](/InterviewQuestionsAnswers/CompetitiveProgramming)
 
 ###### [Executive MBA, Business Intelligence(BI) and Artificial Intelligence(AI)(Accredited by AI Society, UK)](https://isdclearning.online/mba-artificial-intelligence-and-business-intelligence/)
+
+#### Sample Projects
+
+- [nextjs-creating-and-hosting-a-full-stack-site](https://github.com/utpal-maiti/nextjs-creating-and-hosting-a-full-stack-site-5952443)
