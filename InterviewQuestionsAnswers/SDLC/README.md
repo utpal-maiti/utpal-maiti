@@ -2,22 +2,6 @@
 
 End-to-end product development involves collaboration among various roles, each contributing unique expertise to ensure the successful delivery of a product.
 
-## Streamlined Flow Diagram
-
-```mermaid
-flowchart TD
-    A[Product Manager]              -->|Defines vision & roadmap    | B[Business Analyst]
-    B[Business Analyst]             -->|Gathers requirements        | C[UI/UX Engineer]
-    C[UI/UX Engineer]               -->|Designs user experience     | D[Tech Lead]
-    D[Tech Lead]                    -->|Provides technical direction| E[Software Engineer]
-    K[QA Lead]                      -->|Provides test direction     | E[Software Engineer]
-    E[Software Engineer]            -->|Implements features         | F[QA Engineer]
-    F[QA Engineer]                  -->|Tests functionality         | G[QA Automation Engineer]
-    G[QA Automation Engineer]       -->|Automates testing           | H[DevOps Engineer]
-    H[DevOps Engineer]              -->|Manages infrastructure      | I[User Education Specialist]
-    I[User Education Specialist]    -->|Creates documentation       | J[End Users]
-```
-
 # Stages of Product Development (Mermaid Format)
 
 ```mermaid
@@ -110,16 +94,6 @@ flowchart TD
 
     50 -->|  New Requirement        | 1[Requirement Gathering]
 
-
-
-
-
-
-
-
-
-
-
 ```
 
 1.  Requirement Gathering - B[Business Analyst]=A[Product Manager]
@@ -190,6 +164,22 @@ flowchart TD
 49. Release Material - I[User Education Specialist]
 
 50. END --Closure
+
+## Streamlined Flow Diagram
+
+```mermaid
+flowchart TD
+    A[Product Manager]              -->|Defines vision & roadmap    | B[Business Analyst]
+    B[Business Analyst]             -->|Gathers requirements        | C[UI/UX Engineer]
+    C[UI/UX Engineer]               -->|Designs user experience     | D[Tech Lead]
+    D[Tech Lead]                    -->|Provides technical direction| E[Software Engineer]
+    K[QA Lead]                      -->|Provides test direction     | E[Software Engineer]
+    E[Software Engineer]            -->|Implements features         | F[QA Engineer]
+    F[QA Engineer]                  -->|Tests functionality         | G[QA Automation Engineer]
+    G[QA Automation Engineer]       -->|Automates testing           | H[DevOps Engineer]
+    H[DevOps Engineer]              -->|Manages infrastructure      | I[User Education Specialist]
+    I[User Education Specialist]    -->|Creates documentation       | J[End Users]
+```
 
 ## 1. Product Manager (PM)
 
