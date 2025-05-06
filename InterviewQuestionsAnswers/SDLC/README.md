@@ -172,6 +172,7 @@ flowchart TD
     A[Product Manager]              -->|Defines vision & roadmap    | B[Business Analyst]
     B[Business Analyst]             -->|Gathers requirements        | C[UI/UX Engineer]
     C[UI/UX Engineer]               -->|Designs user experience     | D[Tech Lead]
+    C[UI/UX Engineer]               -->|Designs user experience     | K[QA Lead]
     D[Tech Lead]                    -->|Provides technical direction| E[Software Engineer]
     K[QA Lead]                      -->|Provides test direction     | E[Software Engineer]
     E[Software Engineer]            -->|Implements features         | F[QA Engineer]
