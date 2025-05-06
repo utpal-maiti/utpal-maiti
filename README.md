@@ -65,17 +65,22 @@ It's always nice to connect professional profiles with open-source contributions
 - [Entity Framework(Core)](/InterviewQuestionsAnswers/EntityFramework) ✔️
 - [Dapper](/InterviewQuestionsAnswers/Dapper) :white_check_mark:
 - [Language Integrated Query (LINQ)](/InterviewQuestionsAnswers/LanguageIntegratedQuery) :white_check_mark:
+
+- [Source Control](/InterviewQuestionsAnswers/SourceControl)
 - [Source Control(Git)](/InterviewQuestionsAnswers/ANGUALR) ✔️
 - [Gitguardian](/InterviewQuestionsAnswers/SourceControl/Gitguardian) ✔️
+
 - [Angular (Angular 2 and Beyond)](/InterviewQuestionsAnswers/ANGUALR) :white_check_mark:
 - [React](/InterviewQuestionsAnswers/REACT) :white_check_mark:
 - [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
+
 - [SQL Server](/InterviewQuestionsAnswers/SQLServer/) :white_check_mark:
 - [Microsoft Business Intelligence (SSIS, SSRS, SSAS)](/InterviewQuestionsAnswers/MicrosoftBusinessIntelligence/)
 - [Application Architecture](/InterviewQuestionsAnswers/ApplicationArchitecture) ✔️
 - [Design Pattern](/InterviewQuestionsAnswers/DesignPattern) ✔️
 - [Docker](/InterviewQuestionsAnswers/Docker)
-- [Source Control](/InterviewQuestionsAnswers/SourceControl)
+
+- [SDLC(Software Development Life Cycle)](/InterviewQuestionsAnswers/SDLC)
 - [Project Management](/InterviewQuestionsAnswers/ProjectManagement)
 - [OOPS Concept](/InterviewQuestionsAnswers/OOPSConcept)
 - [System Design](/InterviewQuestionsAnswers/SystemDesign)
