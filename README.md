@@ -86,17 +86,20 @@ It's always nice to connect professional profiles with open-source contributions
 
 ###### JavaScripts Technologies
 
+- [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
 - [Angular (Angular 2 and Beyond)](/InterviewQuestionsAnswers/ANGUALR) :white_check_mark:
 - [React](/InterviewQuestionsAnswers/REACT) :white_check_mark:
 - [Next.js- React](/InterviewQuestionsAnswers/REACT/Next.js) :white_check_mark:
-- [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
 
-###### Top Emerging Technologies( Programming language and Freamworks)
+###### Top Emerging Technologies( Programming language, Freamworks & Tools)
 
 - [PHP](/InterviewQuestionsAnswers/PHP/) :white_check_mark:
 - [Go lang](/InterviewQuestionsAnswers/GO/) :white_check_mark:
 - [Python](/InterviewQuestionsAnswers/Python/) :white_check_mark:
 - [Docker](/InterviewQuestionsAnswers/Docker)
+- [Visual Studio Code (VS Code)](</InterviewQuestionsAnswers/VisualStudioCode(VSCode)>)
+- [Development Liberies](/InterviewQuestionsAnswers/DevelopmentLiberies)
+- [Development Tools](/InterviewQuestionsAnswers/DevelopmentTools)
 
 ###### Good to Have
 
