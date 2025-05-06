@@ -61,6 +61,9 @@ It's always nice to connect professional profiles with open-source contributions
 - [ASP.NET Web Forms](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
 - [ASP.NET MVC](https://github.com/utpal-maiti/DOTNET_CORE/MVC/) ✔️
 - [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents/) :white_check_mark:
+
+###### DB Connector: Database Connector = ORM: Object-Relational Mapping
+
 - [ADO.NET](/InterviewQuestionsAnswers/ADO.NET) :white_check_mark:
 - [Entity Framework(Core)](/InterviewQuestionsAnswers/EntityFramework) ✔️
 - [Dapper](/InterviewQuestionsAnswers/Dapper) :white_check_mark:
@@ -68,12 +71,14 @@ It's always nice to connect professional profiles with open-source contributions
 
 ###### Most Impactful and Transformative
 
+- [Source Control(Git)](/InterviewQuestionsAnswers/SourceControl)✔️
+- [Gitguardian](/InterviewQuestionsAnswers/SourceControl/Gitguardian) ✔️
 - [Application Architecture](/InterviewQuestionsAnswers/ApplicationArchitecture) ✔️
 - [Design Pattern](/InterviewQuestionsAnswers/DesignPattern) ✔️
 - [SDLC(Software Development Life Cycle)](/InterviewQuestionsAnswers/SDLC):white_check_mark:
 - [Project Management](/InterviewQuestionsAnswers/ProjectManagement)
 
-###### Databse Technologies
+###### Database Technologies
 
 - [Microsoft Business Intelligence (SSIS, SSRS, SSAS)](/InterviewQuestionsAnswers/MicrosoftBusinessIntelligence/)
 - [SQL Server](/InterviewQuestionsAnswers/SQLServer/) :white_check_mark:
@@ -86,16 +91,14 @@ It's always nice to connect professional profiles with open-source contributions
 - [Next.js- React](/InterviewQuestionsAnswers/REACT/Next.js) :white_check_mark:
 - [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
 
-###### Top Emerging Programming language and Freamworks
+###### Top Emerging Technologies( Programming language and Freamworks)
 
 - [PHP](/InterviewQuestionsAnswers/PHP/) :white_check_mark:
 - [Go lang](/InterviewQuestionsAnswers/GO/) :white_check_mark:
 - [Docker](/InterviewQuestionsAnswers/Docker)
 
-###### Emerging Technologies
+###### Good to Have
 
-- [Source Control(Git)](/InterviewQuestionsAnswers/SourceControl)✔️
-- [Gitguardian](/InterviewQuestionsAnswers/SourceControl/Gitguardian) ✔️
 - [OOPS Concept](/InterviewQuestionsAnswers/OOPSConcept)
 - [System Design](/InterviewQuestionsAnswers/SystemDesign)
 - [Data Structures and Algorithms(Competitive Programming)](/InterviewQuestionsAnswers/CompetitiveProgramming)
