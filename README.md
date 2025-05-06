@@ -70,6 +70,7 @@ It's always nice to connect professional profiles with open-source contributions
 - [Gitguardian](/InterviewQuestionsAnswers/SourceControl/Gitguardian) ✔️
 - [Angular (Angular 2 and Beyond)](/InterviewQuestionsAnswers/ANGUALR) :white_check_mark:
 - [React](/InterviewQuestionsAnswers/REACT) :white_check_mark:
+- [Next.js- React](/InterviewQuestionsAnswers/REACT/Next.js) :white_check_mark:
 - [AngularJS (Angular 1.x)](/InterviewQuestionsAnswers/ANGULARjs/) ✔️
 - [SQL Server](/InterviewQuestionsAnswers/SQLServer/) :white_check_mark:
 - [Microsoft Business Intelligence (SSIS, SSRS, SSAS)](/InterviewQuestionsAnswers/MicrosoftBusinessIntelligence/)
@@ -78,6 +79,12 @@ It's always nice to connect professional profiles with open-source contributions
 - [Docker](/InterviewQuestionsAnswers/Docker)
 - [SDLC(Software Development Life Cycle)](/InterviewQuestionsAnswers/SDLC):white_check_mark:
 - [Project Management](/InterviewQuestionsAnswers/ProjectManagement)
+
+###### Emerging Technologies(Most Impactful and Transformative Technologies)
+
+- [PHP](/InterviewQuestionsAnswers/PHP/) :white_check_mark:
+- [Go lang](/InterviewQuestionsAnswers/GO/) :white_check_mark:
+- [mysql](/InterviewQuestionsAnswers/mysql/) :white_check_mark:
 - [OOPS Concept](/InterviewQuestionsAnswers/OOPSConcept)
 - [System Design](/InterviewQuestionsAnswers/SystemDesign)
 - [Data Structures and Algorithms(Competitive Programming)](/InterviewQuestionsAnswers/CompetitiveProgramming)
