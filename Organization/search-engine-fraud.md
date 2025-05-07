@@ -1,6 +1,8 @@
 **Acuere Group**
 _(Making Sharper)_
 
+---
+
 ### **Search Engine Fraud**
 
 **Search Engine Fraud** occurs when fraudsters manipulate search results to display fake contact information, posing as legitimate entities. Victims who unknowingly call these numbers may reveal sensitive information, such as passwords and account details, leading to financial loss, identity theft, and other severe consequences.
