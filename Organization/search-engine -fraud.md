@@ -1,9 +1,5 @@
-Here is the text from the image:
-
----
-
-<!-- **ALLIANCE BROADBAND**
-_Connecting possibilities_ -->
+**Acuere Group**
+_Making Sharper_
 
 ### **Search Engine Fraud**
 
@@ -32,4 +28,6 @@ _Connecting possibilities_ -->
 
 ---
 
-<!-- **Call us:** 1800 1200 300 | 📱 +91 9874331155 | 🌐 Visit us: [www.alliancebroadband.co.in](http://www.alliancebroadband.co.in) -->
+<!-- **Call us:** +91 7980448893Z | 📱 +91 7980448893 | 🌐 Visit us: [www.alliancebroadband.co.in](http://www.alliancebroadband.co.in) -->
+
+🌐 Visit us: [www.acueregroup.com](http://www.acueregroup.com)
