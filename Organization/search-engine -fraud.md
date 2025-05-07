@@ -1,5 +1,5 @@
 **Acuere Group**
-_Making Sharper_
+_(Making Sharper)_
 
 ### **Search Engine Fraud**
 
