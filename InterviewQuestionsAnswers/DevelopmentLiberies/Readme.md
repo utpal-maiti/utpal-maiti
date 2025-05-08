@@ -5,17 +5,16 @@
 - generate-react-cli
 - odata-query
 - Recoil
--
+- react Tool kit
 
 # Tools
 
 - Go
 - curity.io/
-- signalr
+- signalR
 - graphql
 - mapaster
 - automapper
 - Nlog/Serilog/log4net
 - vite.js
-- 
-
+-

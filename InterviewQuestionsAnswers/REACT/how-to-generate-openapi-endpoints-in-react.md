@@ -9,11 +9,13 @@ First, you need to create a backend API that adheres to the OpenAPI specificatio
 #### **Example: Creating a Node.js API with Swagger**
 
 1. **Install Dependencies**:
+
    ```bash
    npm install express swagger-jsdoc swagger-ui-express
    ```
 
 2. **Set Up Swagger**:
+
    ```js
    // server.js
    const express = require('express');
@@ -25,18 +27,18 @@ First, you need to create a backend API that adheres to the OpenAPI specificatio
 
    // Swagger definition
    const swaggerDefinition = {
-     openapi: '3.0.0',
-     info: {
-       title: 'My API',
-       version: '1.0.0',
-       description: 'A simple Express API',
-     },
+   	openapi: '3.0.0',
+   	info: {
+   		title: 'My API',
+   		version: '1.0.0',
+   		description: 'A simple Express API',
+   	},
    };
 
    // Options for the swagger docs
    const options = {
-     swaggerDefinition,
-     apis: ['./routes/*.js'], // Path to the API docs
+   	swaggerDefinition,
+   	apis: ['./routes/*.js'], // Path to the API docs
    };
 
    // Initialize swagger-jsdoc
@@ -45,11 +47,12 @@ First, you need to create a backend API that adheres to the OpenAPI specificatio
    app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 
    app.listen(port, () => {
-     console.log(`Server is running on http://localhost:${port}`);
+   	console.log(`Server is running on http://localhost:${port}`);
    });
    ```
 
 3. **Define API Endpoints**:
+
    ```js
    // routes/user.js
    const express = require('express');
@@ -76,13 +79,14 @@ First, you need to create a backend API that adheres to the OpenAPI specificatio
     *                     type: string
     */
    router.get('/users', (req, res) => {
-     res.json([{ id: 1, name: 'John Doe' }]);
+   	res.json([{ id: 1, name: 'John Doe' }]);
    });
 
    module.exports = router;
    ```
 
 4. **Use the Routes**:
+
    ```js
    // server.js (continued)
    const userRoutes = require('./routes/user');
@@ -97,6 +101,7 @@ Once you have defined your OpenAPI specification, you can use tools like Swagger
 #### **Example: Using OpenAPI Generator**
 
 1. **Install OpenAPI Generator**:
+
    ```bash
    npm install @openapitools/openapi-generator-cli -g
    ```
@@ -113,6 +118,7 @@ Finally, you can use the generated client code in your React application to make
 #### **Example: Using the Generated Client**
 
 1. **Import the Generated Client**:
+
    ```jsx
    import ApiClient from './api-client';
    import UserApi from './api-client/UserApi';
@@ -122,32 +128,34 @@ Finally, you can use the generated client code in your React application to make
    ```
 
 2. **Fetch Data in a React Component**:
+
    ```jsx
    import React, { useEffect, useState } from 'react';
 
    const UserList = () => {
-     const [users, setUsers] = useState([]);
-     const [error, setError] = useState(null);
+   	const [users, setUsers] = useState([]);
+   	const [error, setError] = useState(null);
 
-     useEffect(() => {
-       userApi.getUsers()
-         .then((response) => setUsers(response.data))
-         .catch((err) => setError(err.message));
-     }, []);
+   	useEffect(() => {
+   		userApi
+   			.getUsers()
+   			.then((response) => setUsers(response.data))
+   			.catch((err) => setError(err.message));
+   	}, []);
 
-     if (error) return <div>Error: {error}</div>;
-     if (!users.length) return <div>Loading...</div>;
+   	if (error) return <div>Error: {error}</div>;
+   	if (!users.length) return <div>Loading...</div>;
 
-     return (
-       <div>
-         <h1>Users</h1>
-         <ul>
-           {users.map((user) => (
-             <li key={user.id}>{user.name}</li>
-           ))}
-         </ul>
-       </div>
-     );
+   	return (
+   		<div>
+   			<h1>Users</h1>
+   			<ul>
+   				{users.map((user) => (
+   					<li key={user.id}>{user.name}</li>
+   				))}
+   			</ul>
+   		</div>
+   	);
    };
 
    export default UserList;
