@@ -23,20 +23,20 @@ import { Redirect } from 'react-router-dom';
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+	const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-  const login = () => setIsAuthenticated(true);
-  const logout = () => setIsAuthenticated(false);
+	const login = () => setIsAuthenticated(true);
+	const logout = () => setIsAuthenticated(false);
 
-  return (
-    <AuthContext.Provider value={{ isAuthenticated, login, logout }}>
-      {children}
-    </AuthContext.Provider>
-  );
+	return (
+		<AuthContext.Provider value={{ isAuthenticated, login, logout }}>
+			{children}
+		</AuthContext.Provider>
+	);
 };
 
 export const useAuth = () => {
-  return useContext(AuthContext);
+	return useContext(AuthContext);
 };
 ```
 
@@ -48,19 +48,15 @@ import { Route, Redirect } from 'react-router-dom';
 import { useAuth } from './AuthenticationContext';
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
-  const { isAuthenticated } = useAuth();
-  return (
-    <Route
-      {...rest}
-      render={props =>
-        isAuthenticated ? (
-          <Component {...props} />
-        ) : (
-          <Redirect to="/login" />
-        )
-      }
-    />
-  );
+	const { isAuthenticated } = useAuth();
+	return (
+		<Route
+			{...rest}
+			render={(props) =>
+				isAuthenticated ? <Component {...props} /> : <Redirect to="/login" />
+			}
+		/>
+	);
 };
 
 export default PrivateRoute;
@@ -78,17 +74,17 @@ import Login from './Login';
 import Dashboard from './Dashboard';
 
 const App = () => {
-  return (
-    <AuthProvider>
-      <Router>
-        <Switch>
-          <Route path="/login" component={Login} />
-          <PrivateRoute path="/dashboard" component={Dashboard} />
-          <Route path="/" component={Home} />
-        </Switch>
-      </Router>
-    </AuthProvider>
-  );
+	return (
+		<AuthProvider>
+			<Router>
+				<Switch>
+					<Route path="/login" component={Login} />
+					<PrivateRoute path="/dashboard" component={Dashboard} />
+					<Route path="/" component={Home} />
+				</Switch>
+			</Router>
+		</AuthProvider>
+	);
 };
 
 export default App;
@@ -101,19 +97,19 @@ import React from 'react';
 import { useAuth } from './AuthenticationContext';
 
 const Login = ({ history }) => {
-  const { login } = useAuth();
+	const { login } = useAuth();
 
-  const handleLogin = () => {
-    login();
-    history.push('/dashboard');
-  };
+	const handleLogin = () => {
+		login();
+		history.push('/dashboard');
+	};
 
-  return (
-    <div>
-      <h2>Login</h2>
-      <button onClick={handleLogin}>Log In</button>
-    </div>
-  );
+	return (
+		<div>
+			<h2>Login</h2>
+			<button onClick={handleLogin}>Log In</button>
+		</div>
+	);
 };
 
 export default Login;
@@ -135,11 +131,11 @@ If you are using Redux for state management, you can protect routes by leveragin
 
 ```jsx
 export const login = () => ({
-  type: 'LOGIN',
+	type: 'LOGIN',
 });
 
 export const logout = () => ({
-  type: 'LOGOUT',
+	type: 'LOGOUT',
 });
 ```
 
@@ -147,18 +143,18 @@ export const logout = () => ({
 
 ```jsx
 const initialState = {
-  isAuthenticated: false,
+	isAuthenticated: false,
 };
 
 const authReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case 'LOGIN':
-      return { ...state, isAuthenticated: true };
-    case 'LOGOUT':
-      return { ...state, isAuthenticated: false };
-    default:
-      return state;
-  }
+	switch (action.type) {
+		case 'LOGIN':
+			return { ...state, isAuthenticated: true };
+		case 'LOGOUT':
+			return { ...state, isAuthenticated: false };
+		default:
+			return state;
+	}
 };
 
 export default authReducer;
@@ -172,19 +168,15 @@ import { Route, Redirect } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 const PrivateRoute = ({ component: Component, ...rest }) => {
-  const isAuthenticated = useSelector(state => state.auth.isAuthenticated);
-  return (
-    <Route
-      {...rest}
-      render={props =>
-        isAuthenticated ? (
-          <Component {...props} />
-        ) : (
-          <Redirect to="/login" />
-        )
-      }
-    />
-  );
+	const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
+	return (
+		<Route
+			{...rest}
+			render={(props) =>
+				isAuthenticated ? <Component {...props} /> : <Redirect to="/login" />
+			}
+		/>
+	);
 };
 
 export default PrivateRoute;
@@ -207,17 +199,17 @@ const rootReducer = combineReducers({ auth: authReducer });
 const store = createStore(rootReducer);
 
 const App = () => {
-  return (
-    <Provider store={store}>
-      <Router>
-        <Switch>
-          <Route path="/login" component={Login} />
-          <PrivateRoute path="/dashboard" component={Dashboard} />
-          <Route path="/" component={Home} />
-        </Switch>
-      </Router>
-    </Provider>
-  );
+	return (
+		<Provider store={store}>
+			<Router>
+				<Switch>
+					<Route path="/login" component={Login} />
+					<PrivateRoute path="/dashboard" component={Dashboard} />
+					<Route path="/" component={Home} />
+				</Switch>
+			</Router>
+		</Provider>
+	);
 };
 
 export default App;
