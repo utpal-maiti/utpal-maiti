@@ -61,3 +61,88 @@ Sure! Here are some scenario-based interview questions for Core PHP, along with 
   - **cURL:** Use cURL to make HTTP requests to the API.
   - **JSON Handling:** Parse the JSON response using `json_decode()`.
   - **Display Data:** Extract and display the relevant data from the API response.
+
+
+Here’s a curated list of **scenario-based interview questions** you can ask a **PHP developer** to assess their practical knowledge, problem-solving skills, and experience with real-world challenges:
+
+---
+
+### 🔧 **1. Debugging & Troubleshooting**
+**Scenario:** A user reports that their uploaded profile picture isn't displaying after submission. The file is stored on the server, but the image doesn't load on the frontend.
+
+**Question:**  
+How would you approach debugging this issue? What tools or techniques would you use?
+
+---
+
+### 🧱 **2. Code Refactoring**
+**Scenario:** You find a function that is over 200 lines long, handling everything from input validation to database operations and HTML rendering.
+
+**Question:**  
+How would you refactor this function to follow best practices like separation of concerns and maintainability?
+
+---
+
+### 🔐 **3. Security**
+**Scenario:** Your PHP application is under a brute-force login attack.
+
+**Question:**  
+What steps would you take to mitigate this attack and secure the login system?
+
+---
+
+### 🔄 **4. API Integration**
+**Scenario:** You need to consume a third-party payment gateway API that requires authentication and handles callbacks.
+
+**Question:**  
+How would you structure your PHP code to handle the API integration, including error handling and security?
+
+---
+
+### 🧪 **5. Testing**
+**Scenario:** Your team is introducing PHPUnit for the first time in a legacy PHP project.
+
+**Question:**  
+How would you begin writing tests for untested code? What challenges might you face and how would you overcome them?
+
+---
+
+### 🗃️ **6. Database Optimization**
+**Scenario:** A report page is taking 10+ seconds to load due to complex SQL queries.
+
+**Question:**  
+How would you identify and optimize the slow queries? What tools or techniques would you use?
+
+---
+
+### 🧩 **7. Design Patterns**
+**Scenario:** You’re building a logging system that can write logs to a file, database, or external service.
+
+**Question:**  
+Which design pattern would you use to implement this, and why?
+
+---
+
+### 🧰 **8. Deployment & CI/CD**
+**Scenario:** Your PHP application needs to be deployed frequently with minimal downtime.
+
+**Question:**  
+What deployment strategy would you use? How would you integrate CI/CD tools like GitHub Actions or Jenkins?
+
+---
+
+### 🌐 **9. Session Management**
+**Scenario:** Users are getting logged out unexpectedly after a few minutes of inactivity.
+
+**Question:**  
+What could be causing this issue, and how would you fix it?
+
+---
+
+### 🧠 **10. Version Upgrade**
+**Scenario:** You’re upgrading a Laravel 7 project to Laravel 10.
+
+**Question:**  
+What steps would you take to ensure a smooth upgrade? How would you handle deprecated features?
+
+---
