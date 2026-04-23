@@ -6,6 +6,10 @@
 - 😄 Pronouns: ... he/him
 - ⚡ Fun fact: ... 😄 Engaging in research and creating technical contents
 
+- [Happy Learning Latest Updates(Interview Focus)](/quickTips)
+
+
+
 ## [Sample Projects(Migrating)](https://github.com/UtpalMaiti/)
 
 - [Enterprise Skills Initiative(ESI)](https://esi.microsoft.com/)
