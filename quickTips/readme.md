@@ -1667,3 +1667,1040 @@ If you want next:
 
 Just tell me 👍
 
+Perfect — here’s a **complete senior-level interview pack** covering exactly what you asked for:
+
+✅ Hands-on coding tasks  
+✅ Scenario-based system design problems  
+✅ MCQ + practical mix
+
+All tailored for **Sr. Backend (.NET, Azure, Microservices)**
+
+***
+
+# ✅ 1. Hands‑On Coding Interview Questions (Expert Level)
+
+These test real-world backend ability — not just syntax.
+
+***
+
+## 🔹 Coding Task 1: Build a Rate Limiter (Core Backend Skill)
+
+### ✅ Problem
+
+Implement a **rate limiter** that allows:
+
+*   Max 5 requests per user per minute
+*   Thread-safe
+*   Scalable
+
+### ✅ Expected Solution (C# Sample)
+
+```csharp
+public class RateLimiter
+{
+    private readonly Dictionary<string, Queue<DateTime>> _requests = new();
+    private readonly object _lock = new();
+
+    public bool AllowRequest(string userId)
+    {
+        lock (_lock)
+        {
+            if (!_requests.ContainsKey(userId))
+                _requests[userId] = new Queue<DateTime>();
+
+            var now = DateTime.UtcNow;
+            var window = now.AddMinutes(-1);
+
+            while (_requests[userId].Count > 0 && _requests[userId].Peek() < window)
+                _requests[userId].Dequeue();
+
+            if (_requests[userId].Count >= 5)
+                return false;
+
+            _requests[userId].Enqueue(now);
+            return true;
+        }
+    }
+}
+```
+
+### ✅ What Expert Should Mention
+
+*   Thread safety issues
+*   Redis for distributed rate limiting
+*   Sliding window vs fixed window
+*   API gateway-level enforcement
+
+***
+
+## 🔹 Coding Task 2: Optimize EF Core Query
+
+### ✅ Problem
+
+This query is slow:
+
+```csharp
+var users = context.Users.ToList()
+    .Where(u => u.IsActive && u.Orders.Count > 5);
+```
+
+### ✅ Expected Answer
+
+```csharp
+var users = await context.Users
+    .Where(u => u.IsActive && u.Orders.Count > 5)
+    .ToListAsync();
+```
+
+### ✅ Expert Add-ons
+
+*   Projection (`Select`) instead of full entity
+*   Indexing on foreign keys
+*   Avoid `ToList()` before filtering
+*   Use `AsNoTracking()` if read-only
+
+***
+
+## 🔹 Coding Task 3: Build Middleware for Logging
+
+### ✅ Task
+
+Capture:
+
+*   Request path
+*   Response time
+
+```csharp
+public class LoggingMiddleware
+{
+    private readonly RequestDelegate _next;
+
+    public LoggingMiddleware(RequestDelegate next)
+    {
+        _next = next;
+    }
+
+    public async Task Invoke(HttpContext context)
+    {
+        var start = DateTime.UtcNow;
+
+        await _next(context);
+
+        var duration = DateTime.UtcNow - start;
+        Console.WriteLine($"{context.Request.Path} took {duration.TotalMilliseconds}ms");
+    }
+}
+```
+
+### ✅ Expert Should Mention
+
+*   Structured logging (Serilog)
+*   Correlation IDs
+*   Logging to centralized system (App Insights)
+
+***
+
+## 🔹 Coding Task 4: Retry + Circuit Breaker (Polly)
+
+```csharp
+var policy = Policy
+    .Handle<HttpRequestException>()
+    .WaitAndRetryAsync(3, retry => TimeSpan.FromSeconds(2));
+
+await policy.ExecuteAsync(() => httpClient.GetAsync(url));
+```
+
+### ✅ Expert Adds
+
+*   Circuit breaker
+*   Timeout policies
+*   Avoid retry storms
+
+***
+
+# ✅ 2. Scenario-Based System Design Problems
+
+These are **critical for senior roles**.
+
+***
+
+## 🔷 Scenario 1: Design a High-Traffic API (E-commerce)
+
+### ✅ Question
+
+Design a backend system that supports:
+
+*   1M users
+*   Product search + checkout
+
+### ✅ Expert Answer Structure
+
+**Architecture:**
+
+*   API Gateway
+*   Microservices (Catalog, Orders, Payments)
+*   Azure AKS deployment
+
+**Database:**
+
+*   SQL for orders
+*   NoSQL for catalog (fast reads)
+
+**Performance:**
+
+*   Redis caching
+*   CDN for static content
+
+**Resilience:**
+
+*   Retry + circuit breaker
+*   Event-driven architecture (Service Bus)
+
+**Security:**
+
+*   OAuth2 + JWT
+
+***
+
+## 🔷 Scenario 2: API Becomes Slow in Production
+
+### ✅ Expected Answer Flow
+
+1.  Check metrics (CPU, memory, DB)
+2.  Identify bottleneck:
+    *   DB queries?
+    *   External API?
+    *   Code inefficiency?
+3.  Use:
+    *   Application Insights
+    *   SQL Profiler
+    *   Distributed tracing
+4.  Fix root cause, not symptoms
+
+***
+
+## 🔷 Scenario 3: Break Monolith into Microservices
+
+### ✅ Expert Answer
+
+*   Start with **bounded contexts**
+*   Extract independent modules first
+*   Use API contracts/events
+*   Avoid shared DB
+*   Gradual migration (Strangler Pattern)
+
+***
+
+## 🔷 Scenario 4: Third‑Party API Failure
+
+### ✅ Expert Solution
+
+*   Retry (Polly)
+*   Circuit breaker
+*   Fallback response
+*   Queue requests (event buffering)
+
+***
+
+# ✅ 3. MCQ + Practical Mix (Expert Level)
+
+***
+
+## 🔹 MCQ 1: EF Core Performance
+
+**Which improves performance most?**
+
+A. Use Lazy Loading  
+B. Use `AsNoTracking()` ✅  
+C. Use more joins  
+D. Use dynamic LINQ
+
+✅ Answer: **B**
+
+***
+
+## 🔹 MCQ 2: Dependency Injection
+
+**Which lifetime is best for DbContext?**
+
+A. Singleton  
+B. Transient  
+C. Scoped ✅  
+D. Static
+
+✅ Answer: **C**
+
+***
+
+## 🔹 MCQ 3: API Security
+
+**Which is safest for service-to-service authentication?**
+
+A. Basic Auth  
+B. API Key in URL  
+C. OAuth Client Credentials ✅  
+D. Hardcoded token
+
+✅ Answer: **C**
+
+***
+
+## 🔹 MCQ 4: Kubernetes
+
+**What does Readiness Probe do?**
+
+A. Restarts container  
+B. Checks memory usage  
+C. Controls traffic routing ✅  
+D. Checks logs
+
+✅ Answer: **C**
+
+***
+
+## 🔹 MCQ 5: Docker
+
+**What is the purpose of multi-stage builds?**
+
+A. Faster networking  
+B. Reduce image size ✅  
+C. Improve CPU usage  
+D. Enable caching
+
+✅ Answer: **B**
+
+***
+
+# ✅ Bonus Practical Rapid-Fire
+
+Ask these to quickly identify experts:
+
+*   What happens if DbContext is Singleton?
+*   Difference between Task.Run vs async/await?
+*   Why avoid blocking calls in ASP.NET?
+*   How does connection pooling work?
+*   What causes thread starvation?
+
+***
+
+# ✅ Final Tip (Very Important)
+
+A **true expert** will:
+
+*   ✅ Explain *why*, not just *how*
+*   ✅ Talk about failures in production
+*   ✅ Mention trade-offs (performance vs maintainability)
+*   ✅ Think in systems, not just code
+
+***
+
+# 🚀 Want Next Level?
+
+I can also provide:
+✅ Live coding test (GitHub-style assignment)  
+✅ System design diagram (visual)  
+✅ Interview scoring sheet  
+✅ Real company-style questions (Amazon/Microsoft style)
+
+Just tell me 👍
+Great—this is **full senior-level interviewer toolkit**. You can directly use this to evaluate expert .NET backend candidates like in top companies.
+
+***
+
+# ✅ 1. Live Coding Test (GitHub‑Style Assignment)
+
+### 📌 Assignment: Build a Scalable Order API
+
+## ✅ Problem Statement
+
+Build a **RESTful Order Management Service** with:
+
+### Functional Requirements:
+
+*   Create Order (POST)
+*   Get Order by ID (GET)
+*   List Orders (GET with pagination)
+*   Update Order Status (PATCH)
+
+### Order Model:
+
+```json
+{
+  "id": "guid",
+  "customerId": "string",
+  "amount": "decimal",
+  "status": "Pending | Completed | Cancelled",
+  "createdAt": "datetime"
+}
+```
+
+***
+
+## ✅ Technical Requirements
+
+*   ASP.NET Core Web API
+*   EF Core + SQL Server (or in-memory for demo)
+*   Clean Architecture
+*   Dependency Injection
+*   Async APIs
+*   Validation
+*   Error handling middleware
+
+***
+
+## ✅ Bonus (Sr-Level Expectation)
+
+*   Redis caching (Get Orders)
+*   Rate limiting
+*   Logging (Serilog)
+*   Unit + integration tests
+*   Dockerfile
+
+***
+
+## ✅ What You Evaluate
+
+| Area                | What to Look For            |
+| ------------------- | --------------------------- |
+| Architecture        | Clean separation of layers  |
+| Performance         | Async, pagination, indexing |
+| Code Quality        | Naming, structure, SOLID    |
+| Error Handling      | Global exception middleware |
+| Production Thinking | Logging, caching            |
+
+***
+
+***
+
+# ✅ 2. System Design Diagram (Visual)
+
+### 📌 Problem: Scalable API on Azure + Kubernetes
+
+                     ┌────────────────────┐
+                     │    Client Apps     │
+                     └────────┬──────────┘
+                              │
+                     ┌────────▼──────────┐
+                     │   API Gateway     │
+                     │ (Auth, Throttle)  │
+                     └────────┬──────────┘
+                              │
+            ┌─────────────────┼──────────────────┐
+            │                 │                  │
+    ┌───────▼───────┐ ┌───────▼───────┐ ┌────────▼────────┐
+    │ Order Service │ │ User Service  │ │ Payment Service │
+    │  (.NET Core)  │ │ (.NET Core)   │ │ (.NET Core)     │
+    └───────┬───────┘ └───────┬───────┘ └────────┬────────┘
+            │                 │                  │
+            │        ┌────────▼────────┐         │
+            │        │  Azure Cache    │         │
+            │        │    (Redis)      │         │
+            │        └────────▲────────┘         │
+            │                 │                  │
+    ┌───────▼────────┐  ┌─────▼────────┐  ┌─────▼────────┐
+    │ SQL Database   │  │ Cosmos DB    │  │ Service Bus  │
+    │ (Orders)       │  │ (Users)      │  │ (Events)     │
+    └────────────────┘  └──────────────┘  └──────────────┘
+
+                     ┌────────────────────────┐
+                     │ Kubernetes (AKS)       │
+                     │ Auto-scale, Deployments│
+                     └────────────────────────┘
+
+                     ┌────────────────────────┐
+                     │ App Insights / Logging │
+                     └────────────────────────┘
+
+***
+
+## ✅ What Expert Should Explain
+
+*   API Gateway for cross-cutting concerns
+*   AKS for scaling + resilience
+*   Redis for caching
+*   Event-driven (Service Bus)
+*   Separate DB per service
+*   Observability (logs + tracing)
+
+***
+
+***
+
+# ✅ 3. Interview Scoring Sheet (Very Practical)
+
+## 📊 Scoring Template (Out of 5 per category)
+
+| Category        | 1 (Weak)      | 3 (Good)          | 5 (Expert)                      |
+| --------------- | ------------- | ----------------- | ------------------------------- |
+| Architecture    | No structure  | Some layering     | Clean Architecture + trade-offs |
+| .NET Core       | Basic usage   | DI + middleware   | Deep pipeline + internals       |
+| EF Core         | CRUD only     | Some optimization | Advanced tuning + concurrency   |
+| API Design      | Basic CRUD    | Versioning aware  | Scalable + backward-compatible  |
+| Cloud & DevOps  | No experience | CI/CD exposure    | Full pipelines + AKS            |
+| Performance     | No idea       | Basic fixes       | Metrics-driven optimization     |
+| Security        | Weak          | JWT usage         | OAuth, flows, secure design     |
+| Problem Solving | Guessing      | Logical           | Data-driven + structured        |
+| Communication   | Poor          | Clear             | Explains trade-offs well        |
+
+***
+
+## ✅ Hiring Decision Guide
+
+*   **40+ → Strong Hire ✅**
+*   **30–39 → Hire with discussion 👍**
+*   **<30 → Not Senior level ❌**
+
+***
+
+***
+
+# ✅ 4. Real Company-Style Questions (Amazon / Microsoft Level)
+
+These test **thinking, not memorization**.
+
+***
+
+## 🔷 Amazon-Style (Leadership + Systems)
+
+### Q1. Tell me about a system you built that failed. What did you learn?
+
+✅ Look for:
+
+*   Ownership
+*   Root cause analysis
+*   Improvement mindset
+
+***
+
+### Q2. Design a system that handles traffic spikes 10x overnight.
+
+✅ Expected:
+
+*   Auto-scaling
+*   Caching
+*   Queueing
+*   Graceful degradation
+
+***
+
+***
+
+## 🔷 Microsoft-Style (Deep Technical)
+
+### Q3. Explain async/await internals in .NET.
+
+✅ Expert Answer:
+
+*   Uses state machine
+*   Non-blocking I/O
+*   Frees thread pool threads
+*   Improves scalability under load
+
+***
+
+### Q4. Why is blocking code harmful in ASP.NET?
+
+✅ Answer:
+
+*   Blocks thread pool threads
+*   Causes request starvation
+*   Reduces throughput
+
+***
+
+***
+
+## 🔷 System Design (Advanced)
+
+### Q5. Design a distributed logging system
+
+✅ Expected:
+
+*   Producers → log stream
+*   Queue (Kafka/Event Hub)
+*   Storage (Elastic/Blob)
+*   Query + visualization
+
+***
+
+***
+
+## 🔷 Debugging Challenge
+
+### Q6. CPU is low but API is slow—why?
+
+✅ Expert guesses:
+
+*   DB bottleneck
+*   Network latency
+*   Locks / waiting threads
+*   External API delays
+
+***
+
+***
+
+## 🔷 Trick Question (Separates Experts)
+
+### Q7. What happens if DbContext is Singleton?
+
+✅ Correct Answer:
+
+*   Shared across threads
+*   Causes memory leaks
+*   Concurrency issues
+*   Data corruption
+
+***
+
+***
+
+# ✅ Final Advice (Very Important)
+
+A real expert:
+✅ Talks about **failures & trade-offs**  
+✅ Mentions **production issues**  
+✅ Understands **infra + code together**  
+✅ Uses **metrics, not guesses**
+
+***
+
+# 🚀 If you want next level:
+
+I can give:
+✅ Full **mock interview simulation**  
+✅ **Candidate answer evaluation examples**  
+✅ **Cheat sheet for interviewer**  
+✅ **Real coding repo template**
+
+Just tell me 👍
+
+You’re describing the **hallmarks of a true senior/expert backend developer**. Below is a clear breakdown you can **use to evaluate candidates—or prepare answers yourself**.
+
+***
+
+# ✅ What “Expert-Level Answers” Actually Look Like
+
+## 1️⃣ Talks About Failures & Trade-offs
+
+### ❓ What to Look For
+
+An expert **does NOT give perfect answers**. Instead, they say:
+
+*   *“We tried X, but it failed because…”*
+*   *“We chose A over B because of trade-offs…”*
+
+### ✅ Strong Example Answer
+
+> “We initially used EF Core for a high-traffic reporting system, but it caused performance issues.  
+> We switched critical queries to stored procedures. It improved performance, but increased complexity in maintenance.  
+> So we balanced it—EF Core for most logic, stored procedures for heavy queries.”
+
+### 🚩 Weak Candidate
+
+> “I always use EF Core because it’s best.”
+
+👉 No trade-off thinking = not senior.
+
+***
+
+## 2️⃣ Mentions Real Production Issues
+
+### ❓ What to Look For
+
+Real experience sounds like:
+
+*   “In production…”
+*   “Under load…”
+*   “At scale…”
+
+### ✅ Strong Example
+
+> “In production, we saw API latency spike due to DB locks.  
+> We traced it using Application Insights and found inefficient indexing.  
+> After fixing indexes and reducing transaction scope, latency dropped by 60%.”
+
+### 🚩 Weak Candidate
+
+> “I would check logs and fix it.”
+
+👉 No real experience.
+
+***
+
+## 3️⃣ Understands Infra + Code Together
+
+### ❓ What to Look For
+
+Experts connect:
+
+*   Code ✅
+*   Cloud ✅
+*   Deployment ✅
+*   Networking ✅
+
+### ✅ Strong Example
+
+> “The issue wasn’t code—it was Kubernetes scaling.  
+> The pod CPU limits were too low, so requests queued up.  
+> After tuning autoscaling and increasing limits, performance stabilized.”
+
+👉 This is **true senior thinking**.
+
+### 🚩 Weak Candidate
+
+> Only talks about code, ignores infrastructure.
+
+***
+
+## 4️⃣ Uses Metrics, Not Guessing
+
+### ❓ What to Look For
+
+Experts always say:
+
+*   “I checked metrics…”
+*   “Based on data…”
+
+### ✅ Strong Example
+
+> “Instead of guessing, I checked:
+
+*   API latency (p95)
+*   DB query time
+*   CPU usage  
+    The bottleneck was the database, not the API layer.”
+
+### 🚩 Weak Candidate
+
+> “I think the issue was probably…”
+
+👉 Guessing = not expert.
+
+***
+
+# ✅ How to Test This in Interview (Very Practical)
+
+Ask this:
+
+### 🔥 “Tell me about a production issue you solved.”
+
+## ✅ Strong Answer Pattern (What You Want)
+
+1.  **Context**
+    *   “We had a high-traffic API…”
+
+2.  **Problem**
+    *   “Latency increased suddenly…”
+
+3.  **Investigation**
+    *   “We checked logs, metrics, traces…”
+
+4.  **Root Cause**
+    *   “DB indexing issue…”
+
+5.  **Solution**
+    *   “Optimized query + index…”
+
+6.  **Trade-off**
+    *   “Improved speed but added complexity…”
+
+***
+
+# ✅ Quick Evaluation Cheat Sheet
+
+| Trait                 | Weak        | Average | Expert                        |
+| --------------------- | ----------- | ------- | ----------------------------- |
+| Failures              | None        | Minor   | Deep learning from failures ✅ |
+| Trade-offs            | No          | Basic   | Clear decision reasoning ✅    |
+| Production Experience | Theoretical | Some    | Real incidents ✅              |
+| Infra Knowledge       | None        | Limited | Strong (Cloud + K8s) ✅        |
+| Problem Solving       | Guessing    | Logical | Data-driven ✅                 |
+
+***
+
+# ✅ One “Golden Question” to Identify Experts
+
+Ask this:
+
+👉 **“Tell me about a time when your system failed in production.”**
+
+### ✅ If they are expert, they will:
+
+*   Admit failure confidently
+*   Explain debugging process
+*   Talk about metrics
+*   Explain trade-offs
+
+### 🚩 If not:
+
+*   Vague answer
+*   No metrics
+*   No real incident
+
+***
+
+# ✅ Final Insight
+
+A **mid-level developer**:
+
+> Focuses on writing code
+
+A **senior/expert developer**:
+
+> Thinks about systems, failures, scale, and trade-offs
+
+***
+
+If you want, I can next:
+✅ Give **model answers candidates should say (perfect interview responses)**  
+✅ Conduct a **mock interview (you play interviewer)**  
+✅ Provide **top 10 killer questions to filter experts instantly**
+
+Just tell me 👍
+
+Perfect — this is exactly what top companies expect. I’ll give you **3 powerful sections** you can use immediately:
+
+***
+
+# ✅ 1. Model Answers (What “Perfect” Candidates Say)
+
+These are **gold-standard responses** that signal *real senior expertise*.
+
+***
+
+## 🔥 Q1. “Tell me about a production issue you solved.”
+
+### ✅ Perfect Answer
+
+> “We had a high‑traffic API where latency suddenly increased from \~200ms to over 2 seconds.  
+> First, I checked Application Insights metrics—CPU and memory were stable, but DB query time had spiked.  
+> Using query profiling, I found a missing index on a frequently filtered column.  
+> After adding the index and reducing unnecessary joins, latency dropped by \~70%.  
+> However, the trade-off was slightly slower writes due to indexing, which we accepted because read performance was critical.”
+
+✅ Signals:
+
+*   Uses **metrics, not guessing**
+*   Understands **trade-offs**
+*   Talks about **real production**
+
+***
+
+## 🔥 Q2. “How do you design scalable APIs?”
+
+### ✅ Perfect Answer
+
+> “I focus on stateless design, proper use of HTTP methods, and scalability patterns like pagination and caching.  
+> For high-load systems, I use Redis caching and avoid unnecessary DB hits.  
+> I also design for versioning from day one to avoid breaking clients.  
+> In one system, we reduced DB load by 60% using caching—but had to introduce cache invalidation logic, which is a known trade-off.”
+
+✅ Signals:
+
+*   Talks **performance + trade-offs**
+*   Real experience
+
+***
+
+## 🔥 Q3. “How do you debug a slow API?”
+
+### ✅ Perfect Answer
+
+> “I never guess. I start with metrics—latency percentiles, CPU, memory, DB wait time.  
+> Then I use distributed tracing to see where time is spent.  
+> In most cases, the issue is either DB queries, external APIs, or thread blocking.  
+> Once identified, I fix the root cause—not symptoms.”
+
+✅ Signals:
+
+*   Data-driven mindset ✅
+*   Structured approach ✅
+
+***
+
+## 🔥 Q4. “Explain async/await in real-world terms”
+
+### ✅ Perfect Answer
+
+> “Async/await allows non-blocking I/O operations so the thread can serve other requests.  
+> In ASP.NET, this improves scalability significantly because threads are not held while waiting for DB or API calls.  
+> Blocking calls can cause thread pool starvation under load, which I’ve seen in production systems.”
+
+✅ Signals:
+
+*   Ties concept → real impact
+
+***
+
+## 🔥 Q5. “How do you handle third-party API failures?”
+
+### ✅ Perfect Answer
+
+> “I use retry policies with exponential backoff and circuit breakers using Polly.  
+> If failures persist, I degrade gracefully—either return cached data or queue the request.  
+> In one case, this prevented our system from going down when a payment provider failed.”
+
+✅ Signals:
+
+*   Resilience patterns
+*   Real scenario thinking
+
+***
+
+# ✅ 2. Mock Interview (I’m the Interviewer)
+
+Answer these like a real interview — no shortcuts.
+
+***
+
+### 🎯 Section 1: Warm-Up
+
+**Q1.** Walk me through a backend system you designed recently. What were the biggest challenges?
+
+***
+
+### 🎯 Section 2: Deep Technical
+
+**Q2.** Your API is under heavy load. How do you identify bottlenecks?
+
+**Q3.** What’s the biggest mistake you’ve made in a production system?
+
+**Q4.** How do you balance performance vs maintainability?
+
+***
+
+### 🎯 Section 3: Scenario
+
+**Q5.** Your database becomes the bottleneck at scale. What do you do?
+
+**Q6.** A Kubernetes pod keeps restarting—how do you debug it?
+
+***
+
+### 🎯 Section 4: Expert-Level Thinking
+
+**Q7.** When should you NOT use microservices?
+
+**Q8.** How do you ensure system reliability under partial failures?
+
+***
+
+👉 If you want, reply with your answers and I’ll **evaluate you like a real interviewer**.
+
+***
+
+# ✅ 3. Top 10 “Killer Questions” (Filter Experts Instantly)
+
+These are **high-signal questions** used in top companies.
+
+***
+
+## 🔥 1. “Tell me about a system that failed in production.”
+
+👉 No real failure = not senior
+
+***
+
+## 🔥 2. “How do you debug a slow API without guessing?”
+
+👉 Look for metrics, tracing, structured thinking
+
+***
+
+## 🔥 3. “What trade-offs did you make in your last system design?”
+
+👉 Experts ALWAYS discuss trade-offs
+
+***
+
+## 🔥 4. “What happens if DbContext is registered as Singleton?”
+
+✅ Correct:
+
+*   Thread issues
+*   Memory leaks
+*   Concurrency problems
+
+***
+
+## 🔥 5. “Why is blocking code dangerous in ASP.NET?”
+
+✅ Correct:
+
+*   Thread pool exhaustion
+*   Reduced throughput
+
+***
+
+## 🔥 6. “When would you avoid microservices?”
+
+✅ Correct:
+
+*   Early-stage product
+*   Small teams
+*   Unclear domain boundaries
+
+***
+
+## 🔥 7. “How do you handle cascading failures in distributed systems?”
+
+✅ Expect:
+
+*   Circuit breaker
+*   Retry
+*   Isolation
+
+***
+
+## 🔥 8. “What metrics do you monitor in production?”
+
+✅ Expect:
+
+*   Latency (p95/p99)
+*   Error rate
+*   Throughput
+*   Resource usage
+
+***
+
+## 🔥 9. “EF Core is slow in production but fine locally—why?”
+
+✅ Answers:
+
+*   Data size difference
+*   Missing indexes
+*   Query plan differences
+
+***
+
+## 🔥 10. “Explain a time you made the wrong architecture choice.”
+
+👉 Experts admit mistakes clearly
+
+***
+
+# ✅ Final Insight (What You’re Really Testing)
+
+You are NOT testing:
+❌ Syntax  
+❌ Definitions
+
+You ARE testing:
+✅ **Real production experience**  
+✅ **Decision-making & trade-offs**  
+✅ **System thinking**  
+✅ **Debugging approach**
+
+***
+
+# 🚀 Next Step (If You Want)
+
+I can now:
+✅ Evaluate your answers (like a real interviewer)  
+✅ Give **perfect resume answers for backend roles**  
+✅ Create a **1-hour full interview script**  
+✅ Provide **company-specific (Amazon/Microsoft) preparation plan**
+
+Just say 👍
+
